@@ -1,0 +1,40 @@
+2023-12-03 10:56:56,526 __main__ INFO ==> Config: {'VGGISH_BATCH_SIZE': 8, 'LAMBDA_1': 50, 'TRAIN': {'PRETRAINED_VGGISH_MODEL_PATH': 'models/vggish/vggish-10086976.pth', 'PRETRAINED_PCA_PARAMS_PATH': 'models/vggish_pca_params-970ea276.pth', 'FREEZE_AUDIO_EXTRACTOR': True}, 'DATA': {'AVS_CSV': 'G:/localizing visual sounds the easy way/Data/AVS/metadata.csv', 'AVS_PKL': 'G:/localizing visual sounds the easy way/Data/AVS/v1s_pkl', 'AVS_DATA': 'G:/localizing visual sounds the easy way/Data/AVS/v1s', 'VGGSOUND_DATA': 'G:/localizing visual sounds the easy way/Data/vggsound/', 'IMG_SIZE': [224, 224]}}
+2023-12-03 10:56:56,526 __main__ INFO ==> Arguments: Namespace(model_dir='./checkpoints', experiment_name='train_avs_test_avs_1203', trainset='avs', testset='avs', out_dim=512, tau=0.03, epochs=5, batch_size=4, init_lr=0.0001, seed=12345, workers=8, gpu=0, world_size=1, rank=0, node='localhost', port=12345, dist_url='tcp://localhost:12345', multiprocessing_distributed=False, is_vggish=False)
+2023-12-03 10:56:56,528 __main__ INFO ==> Experiment: train_avs_test_avs_1203
+2023-12-03 10:56:56,535 __main__ INFO ==> Total params: 22.87M
+2023-12-03 10:56:56,732 __main__ INFO Loaded dataloader.
+2023-12-03 11:01:39,751 __main__ INFO cIoU (epoch 0): 0.12610825896263123 
+AUC (epoch 0): 0.12763513513513514
+best_cIoU: 0.0
+best_Auc: 0.0
+
+2023-12-03 11:25:53,281 __main__ INFO cIoU (epoch 1): 0.2136620581150055
+AUC (epoch 1): 0.21412162162162163
+best_cIoU: 0.0
+best_Auc: 0.0
+
+2023-12-03 11:25:53,743 __main__ INFO Model saved to ./checkpoints\train_avs_test_avs_1203
+2023-12-03 11:49:57,300 __main__ INFO cIoU (epoch 2): 0.23627564311027527
+AUC (epoch 2): 0.23763513513513515
+best_cIoU: 0.2136620581150055
+best_Auc: 0.21412162162162163
+
+2023-12-03 11:49:57,723 __main__ INFO Model saved to ./checkpoints\train_avs_test_avs_1203
+2023-12-03 12:12:38,827 __main__ INFO cIoU (epoch 3): 0.20223696529865265
+AUC (epoch 3): 0.20263513513513515
+best_cIoU: 0.23627564311027527
+best_Auc: 0.23763513513513515
+
+2023-12-03 12:12:39,250 __main__ INFO Model saved to ./checkpoints\train_avs_test_avs_1203
+2023-12-03 12:35:06,186 __main__ INFO cIoU (epoch 4): 0.22869336605072021
+AUC (epoch 4): 0.22932432432432437
+best_cIoU: 0.23627564311027527
+best_Auc: 0.23763513513513515
+
+2023-12-03 12:35:06,613 __main__ INFO Model saved to ./checkpoints\train_avs_test_avs_1203
+2023-12-03 12:57:31,936 __main__ INFO cIoU (epoch 5): 0.23840299248695374
+AUC (epoch 5): 0.2383783783783784
+best_cIoU: 0.23627564311027527
+best_Auc: 0.23763513513513515
+
+2023-12-03 12:57:32,273 __main__ INFO Model saved to ./checkpoints\train_avs_test_avs_1203

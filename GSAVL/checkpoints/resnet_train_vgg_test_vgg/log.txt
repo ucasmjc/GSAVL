@@ -1,0 +1,70 @@
+2023-11-24 01:25:17,333 __main__ INFO ==> Config: {'VGGISH_BATCH_SIZE': 8, 'LAMBDA_1': 50, 'TRAIN': {'PRETRAINED_VGGISH_MODEL_PATH': 'models/vggish/vggish-10086976.pth', 'PRETRAINED_PCA_PARAMS_PATH': 'models/vggish_pca_params-970ea276.pth', 'FREEZE_AUDIO_EXTRACTOR': True}, 'DATA': {'AVS_CSV': 'G:/localizing visual sounds the easy way/Data/AVS/metadata.csv', 'AVS_PKL': 'G:/localizing visual sounds the easy way/Data/AVS/v1s_pkl', 'AVS_DATA': 'G:/localizing visual sounds the easy way/Data/AVS/v1s', 'VGGSOUND_DATA': 'G:/localizing visual sounds the easy way/Data/vggsound/', 'IMG_SIZE': [224, 224]}}
+2023-11-24 01:25:17,334 __main__ INFO ==> Arguments: Namespace(model_dir='./checkpoints', experiment_name='resnet_train_vgg_test_vgg_1124', trainset='vggss', testset='vgg_val', out_dim=512, tau=0.03, epochs=10, batch_size=16, init_lr=0.0001, seed=12345, workers=8, gpu=0, world_size=1, rank=0, node='localhost', port=12345, dist_url='tcp://localhost:12345', multiprocessing_distributed=False, is_vggish=False)
+2023-11-24 01:25:17,335 __main__ INFO ==> Experiment: resnet_train_vgg_test_vgg_1124
+2023-11-24 01:25:17,342 __main__ INFO ==> Total params: 22.87M
+2023-11-24 01:25:18,584 __main__ INFO Loaded dataloader.
+2023-11-24 01:25:54,130 __main__ INFO cIoU (epoch 0): 0.21120359857622398 
+AUC (epoch 0): 0.2117
+best_cIoU: 0.0
+best_Auc: 0.0
+
+2023-11-24 01:28:15,920 __main__ INFO cIoU (epoch 1): 0.23895395842983044
+AUC (epoch 1): 0.23970000000000002
+best_cIoU: 0.0
+best_Auc: 0.0
+
+2023-11-24 01:28:16,180 __main__ INFO Model saved to ./checkpoints\resnet_train_vgg_test_vgg_1124
+2023-11-24 01:30:11,432 __main__ INFO cIoU (epoch 2): 0.2980256331724548
+AUC (epoch 2): 0.29760000000000003
+best_cIoU: 0.23895395842983044
+best_Auc: 0.23970000000000002
+
+2023-11-24 01:30:11,687 __main__ INFO Model saved to ./checkpoints\resnet_train_vgg_test_vgg_1124
+2023-11-24 01:32:07,025 __main__ INFO cIoU (epoch 3): 0.2897021311792612
+AUC (epoch 3): 0.2892
+best_cIoU: 0.2980256331724548
+best_Auc: 0.29760000000000003
+
+2023-11-24 01:32:07,271 __main__ INFO Model saved to ./checkpoints\resnet_train_vgg_test_vgg_1124
+2023-11-24 01:33:58,371 __main__ INFO cIoU (epoch 4): 0.27856636035221566
+AUC (epoch 4): 0.279
+best_cIoU: 0.2980256331724548
+best_Auc: 0.29760000000000003
+
+2023-11-24 01:33:58,611 __main__ INFO Model saved to ./checkpoints\resnet_train_vgg_test_vgg_1124
+2023-11-24 01:35:51,370 __main__ INFO cIoU (epoch 5): 0.24367129719393077
+AUC (epoch 5): 0.24450000000000002
+best_cIoU: 0.2980256331724548
+best_Auc: 0.29760000000000003
+
+2023-11-24 01:35:51,630 __main__ INFO Model saved to ./checkpoints\resnet_train_vgg_test_vgg_1124
+2023-11-24 01:37:41,187 __main__ INFO cIoU (epoch 6): 0.2763508722161042
+AUC (epoch 6): 0.27680000000000005
+best_cIoU: 0.2980256331724548
+best_Auc: 0.29760000000000003
+
+2023-11-24 01:37:41,448 __main__ INFO Model saved to ./checkpoints\resnet_train_vgg_test_vgg_1124
+2023-11-24 01:39:29,024 __main__ INFO cIoU (epoch 7): 0.3085907284378775
+AUC (epoch 7): 0.3093
+best_cIoU: 0.2980256331724548
+best_Auc: 0.29760000000000003
+
+2023-11-24 01:39:29,289 __main__ INFO Model saved to ./checkpoints\resnet_train_vgg_test_vgg_1124
+2023-11-24 01:41:21,056 __main__ INFO cIoU (epoch 8): 0.2701303473195969
+AUC (epoch 8): 0.2712
+best_cIoU: 0.3085907284378775
+best_Auc: 0.3093
+
+2023-11-24 01:41:21,319 __main__ INFO Model saved to ./checkpoints\resnet_train_vgg_test_vgg_1124
+2023-11-24 01:43:10,285 __main__ INFO cIoU (epoch 9): 0.30173771047308207
+AUC (epoch 9): 0.3018
+best_cIoU: 0.3085907284378775
+best_Auc: 0.3093
+
+2023-11-24 01:43:10,551 __main__ INFO Model saved to ./checkpoints\resnet_train_vgg_test_vgg_1124
+2023-11-24 01:45:03,021 __main__ INFO cIoU (epoch 10): 0.292507913438464
+AUC (epoch 10): 0.2926
+best_cIoU: 0.3085907284378775
+best_Auc: 0.3093
+
+2023-11-24 01:45:03,267 __main__ INFO Model saved to ./checkpoints\resnet_train_vgg_test_vgg_1124

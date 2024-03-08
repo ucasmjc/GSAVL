@@ -1,0 +1,1015 @@
+2023-12-05 08:32:07,181 __main__ INFO ==> Config: {'VGGISH_BATCH_SIZE': 8, 'LAMBDA_1': 50, 'TRAIN': {'PRETRAINED_VGGISH_MODEL_PATH': 'models/vggish/vggish-10086976.pth', 'PRETRAINED_PCA_PARAMS_PATH': 'models/vggish_pca_params-970ea276.pth', 'FREEZE_AUDIO_EXTRACTOR': True}, 'DATA': {'AVS_CSV': 'C:\\Users\\13428\\PycharmProjects\\ez-vsl\\AVS\\metadata.csv', 'AVS_PKL': 'C:\\Users\\13428\\PycharmProjects\\ez-vsl\\AVS\\v1s_pkl', 'AVS_DATA': 'C:\\Users\\13428\\PycharmProjects\\ez-vsl\\AVS\\v1s', 'VGGSOUND_DATA': 'GC:\\Users\\13428\\PycharmProjects\\ez-vsl\\vggsound', 'IMG_SIZE': [224, 224]}}
+2023-12-05 08:32:07,182 __main__ INFO ==> Arguments: Namespace(model_dir='checkpoints', experiment_name='final_avs_naive', testset='avs', save_visualizations=False, batch_size=1, gpu=None, is_vggish=True, sam_used=True, obj_used=True, sampler_type='naive')
+2023-12-05 08:32:07,182 __main__ INFO ==> Experiment: final_avs_naive
+2023-12-05 08:32:14,015 root INFO obj is used.
+2023-12-05 08:32:14,035 root INFO sam is used.
+2023-12-05 08:32:29,565 root INFO 1/336_Nz7aasD2tk_0_5000: map_av=0.00 map_obj=0.01 map_av_obj=0.01
+2023-12-05 08:32:30,747 root INFO obj is used.
+2023-12-05 08:32:30,772 root INFO sam is used.
+2023-12-05 08:32:47,353 root INFO 2/336-_KYvb4aTZY_0_5000: map_av=0.00 map_obj=0.81 map_av_obj=0.81
+2023-12-05 08:32:48,563 root INFO obj is used.
+2023-12-05 08:32:48,590 root INFO sam is used.
+2023-12-05 08:33:04,753 root INFO 3/336-8YTu7ZGA2w_0_5000: map_av=0.00 map_obj=0.90 map_av_obj=0.90
+2023-12-05 08:33:05,235 root INFO obj is used.
+2023-12-05 08:33:05,256 root INFO sam is used.
+2023-12-05 08:33:21,347 root INFO 4/336-AWooU1PDiM_1000_6000: map_av=0.01 map_obj=0.33 map_av_obj=0.91
+2023-12-05 08:33:22,581 root INFO obj is used.
+2023-12-05 08:33:22,607 root INFO sam is used.
+2023-12-05 08:33:38,889 root INFO 5/336-cKbOLMm0yo_4000_9000: map_av=0.01 map_obj=0.01 map_av_obj=0.02
+2023-12-05 08:33:39,405 root INFO obj is used.
+2023-12-05 08:33:39,425 root INFO sam is used.
+2023-12-05 08:33:55,574 root INFO 6/336-E3eNjI4vEc_0_5000: map_av=0.00 map_obj=0.85 map_av_obj=0.85
+2023-12-05 08:33:56,796 root INFO obj is used.
+2023-12-05 08:33:56,822 root INFO sam is used.
+2023-12-05 08:34:12,903 root INFO 7/336-Etzr_L-R1E_4000_9000: map_av=0.00 map_obj=0.32 map_av_obj=0.32
+2023-12-05 08:34:14,203 root INFO obj is used.
+2023-12-05 08:34:14,231 root INFO sam is used.
+2023-12-05 08:34:29,947 root INFO 8/336-GM-ogU1Q4s_0_5000: map_av=0.00 map_obj=0.01 map_av_obj=0.01
+2023-12-05 08:34:31,122 root INFO obj is used.
+2023-12-05 08:34:31,148 root INFO sam is used.
+2023-12-05 08:34:47,590 root INFO 9/336-hqM85LZw7c_0_5000: map_av=0.00 map_obj=0.01 map_av_obj=0.01
+2023-12-05 08:34:49,566 root INFO obj is used.
+2023-12-05 08:34:49,598 root INFO sam is used.
+2023-12-05 08:35:05,647 root INFO 10/336-II-7qJxKPc_0_5000: map_av=0.00 map_obj=0.03 map_av_obj=0.00
+2023-12-05 08:35:06,183 root INFO obj is used.
+2023-12-05 08:35:06,205 root INFO sam is used.
+2023-12-05 08:35:22,107 root INFO 11/336-j9x-d4ZqtY_0_5000: map_av=0.00 map_obj=0.45 map_av_obj=0.00
+2023-12-05 08:35:22,477 root INFO obj is used.
+2023-12-05 08:35:22,507 root INFO sam is used.
+2023-12-05 08:35:38,425 root INFO 12/336-jOC8Eb8Il8_5000_10000: map_av=0.00 map_obj=0.20 map_av_obj=0.20
+2023-12-05 08:35:39,691 root INFO obj is used.
+2023-12-05 08:35:39,716 root INFO sam is used.
+2023-12-05 08:35:55,433 root INFO 13/336-lXGJj-NMqQ_5000_10000: map_av=0.08 map_obj=0.87 map_av_obj=0.88
+2023-12-05 08:35:55,912 root INFO obj is used.
+2023-12-05 08:35:55,932 root INFO sam is used.
+2023-12-05 08:36:11,434 root INFO 14/336-MqBuNdwrsk_5000_10000: map_av=0.76 map_obj=0.00 map_av_obj=0.76
+2023-12-05 08:36:11,744 root INFO obj is used.
+2023-12-05 08:36:11,764 root INFO sam is used.
+2023-12-05 08:36:26,997 root INFO 15/336-ocADGlyaHc_0_5000: map_av=0.00 map_obj=0.09 map_av_obj=0.62
+2023-12-05 08:36:27,421 root INFO obj is used.
+2023-12-05 08:36:27,450 root INFO sam is used.
+2023-12-05 08:36:42,821 root INFO 16/336-OWk1q8xH7s_0_5000: map_av=0.00 map_obj=0.04 map_av_obj=0.01
+2023-12-05 08:36:43,261 root INFO obj is used.
+2023-12-05 08:36:43,282 root INFO sam is used.
+2023-12-05 08:36:59,426 root INFO 17/336-PMlBj8IuDA_0_5000: map_av=0.27 map_obj=0.55 map_av_obj=0.55
+2023-12-05 08:37:00,076 root INFO obj is used.
+2023-12-05 08:37:00,102 root INFO sam is used.
+2023-12-05 08:37:15,347 root INFO 18/336-qymcBqBEN4_0_5000: map_av=0.00 map_obj=0.50 map_av_obj=0.49
+2023-12-05 08:37:15,649 root INFO obj is used.
+2023-12-05 08:37:15,668 root INFO sam is used.
+2023-12-05 08:37:30,680 root INFO 19/336-rowxr24Xuw_5000_10000: map_av=0.07 map_obj=0.00 map_av_obj=0.31
+2023-12-05 08:37:30,971 root INFO obj is used.
+2023-12-05 08:37:30,990 root INFO sam is used.
+2023-12-05 08:37:45,848 root INFO 20/336-svl89zIevs_0_5000: map_av=0.88 map_obj=0.00 map_av_obj=0.00
+2023-12-05 08:37:46,257 root INFO obj is used.
+2023-12-05 08:37:46,276 root INFO sam is used.
+2023-12-05 08:38:01,136 root INFO 21/336-t5hV8VVvtI_0_5000: map_av=0.00 map_obj=0.28 map_av_obj=0.02
+2023-12-05 08:38:01,586 root INFO obj is used.
+2023-12-05 08:38:01,605 root INFO sam is used.
+2023-12-05 08:38:16,560 root INFO 22/336-wfnaQQEPqs_0_5000: map_av=0.01 map_obj=0.00 map_av_obj=0.62
+2023-12-05 08:38:16,853 root INFO obj is used.
+2023-12-05 08:38:16,871 root INFO sam is used.
+2023-12-05 08:38:31,789 root INFO 23/336-X0E4OYFg-4_2000_7000: map_av=0.01 map_obj=0.91 map_av_obj=0.91
+2023-12-05 08:38:32,187 root INFO obj is used.
+2023-12-05 08:38:32,206 root INFO sam is used.
+2023-12-05 08:38:46,998 root INFO 24/336-x360DnCJ5g_4000_9000: map_av=0.61 map_obj=0.60 map_av_obj=0.60
+2023-12-05 08:38:47,290 root INFO obj is used.
+2023-12-05 08:38:47,309 root INFO sam is used.
+2023-12-05 08:39:02,379 root INFO 25/336-xpc63hW7Wk_0_5000: map_av=0.00 map_obj=0.74 map_av_obj=0.74
+2023-12-05 08:39:02,801 root INFO obj is used.
+2023-12-05 08:39:02,821 root INFO sam is used.
+2023-12-05 08:39:17,842 root INFO 26/3360-52H7-ABkM_0_5000: map_av=0.00 map_obj=0.00 map_av_obj=0.00
+2023-12-05 08:39:18,913 root INFO obj is used.
+2023-12-05 08:39:18,937 root INFO sam is used.
+2023-12-05 08:39:33,896 root INFO 27/33603fGTwkSBWs_0_5000: map_av=0.00 map_obj=0.01 map_av_obj=0.01
+2023-12-05 08:39:34,944 root INFO obj is used.
+2023-12-05 08:39:34,969 root INFO sam is used.
+2023-12-05 08:39:49,897 root INFO 28/33603VaAW9NZq4_0_5000: map_av=0.00 map_obj=0.01 map_av_obj=0.03
+2023-12-05 08:39:50,961 root INFO obj is used.
+2023-12-05 08:39:50,985 root INFO sam is used.
+2023-12-05 08:40:05,996 root INFO 29/336047Ivb3e-bE_5000_10000: map_av=0.96 map_obj=0.97 map_av_obj=0.97
+2023-12-05 08:40:06,438 root INFO obj is used.
+2023-12-05 08:40:06,462 root INFO sam is used.
+2023-12-05 08:40:21,508 root INFO 30/336081Cy9LxZiQ_1000_6000: map_av=0.00 map_obj=0.01 map_av_obj=0.01
+2023-12-05 08:40:21,917 root INFO obj is used.
+2023-12-05 08:40:21,937 root INFO sam is used.
+2023-12-05 08:40:36,830 root INFO 31/3360bISD6Q8cQs_0_5000: map_av=0.00 map_obj=0.00 map_av_obj=0.00
+2023-12-05 08:40:37,229 root INFO obj is used.
+2023-12-05 08:40:37,249 root INFO sam is used.
+2023-12-05 08:40:52,160 root INFO 32/3360cvPbD8PRxM_0_5000: map_av=0.01 map_obj=0.00 map_av_obj=0.05
+2023-12-05 08:40:53,235 root INFO obj is used.
+2023-12-05 08:40:53,259 root INFO sam is used.
+2023-12-05 08:41:08,473 root INFO 33/3360e-juaQZ-bM_0_5000: map_av=0.02 map_obj=0.83 map_av_obj=0.02
+2023-12-05 08:41:08,933 root INFO obj is used.
+2023-12-05 08:41:08,957 root INFO sam is used.
+2023-12-05 08:41:24,990 root INFO 34/3360EESEzTk150_5000_10000: map_av=0.00 map_obj=0.92 map_av_obj=0.93
+2023-12-05 08:41:26,355 root INFO obj is used.
+2023-12-05 08:41:26,391 root INFO sam is used.
+2023-12-05 08:41:43,037 root INFO 35/3360IStDugr5uA_0_5000: map_av=0.00 map_obj=0.30 map_av_obj=0.00
+2023-12-05 08:41:43,384 root INFO obj is used.
+2023-12-05 08:41:43,409 root INFO sam is used.
+2023-12-05 08:41:59,951 root INFO 36/3360MDnsyFOtWM_0_5000: map_av=0.00 map_obj=0.22 map_av_obj=0.88
+2023-12-05 08:42:00,283 root INFO obj is used.
+2023-12-05 08:42:00,311 root INFO sam is used.
+2023-12-05 08:42:16,687 root INFO 37/3360MIEAEOC-cY_0_5000: map_av=0.00 map_obj=0.13 map_av_obj=0.67
+2023-12-05 08:42:17,074 root INFO obj is used.
+2023-12-05 08:42:17,097 root INFO sam is used.
+2023-12-05 08:42:33,242 root INFO 38/3360MuN1nPMisQ_1000_6000: map_av=0.00 map_obj=0.19 map_av_obj=0.13
+2023-12-05 08:42:33,709 root INFO obj is used.
+2023-12-05 08:42:33,734 root INFO sam is used.
+2023-12-05 08:42:49,846 root INFO 39/3360owoOrZH2mI_0_5000: map_av=0.88 map_obj=0.88 map_av_obj=0.88
+2023-12-05 08:42:50,303 root INFO obj is used.
+2023-12-05 08:42:50,327 root INFO sam is used.
+2023-12-05 08:43:06,574 root INFO 40/3360t3RXAuQEg4_0_5000: map_av=0.43 map_obj=0.43 map_av_obj=0.43
+2023-12-05 08:43:06,918 root INFO obj is used.
+2023-12-05 08:43:06,939 root INFO sam is used.
+2023-12-05 08:43:23,089 root INFO 41/3360tRkJ1CppTA_0_5000: map_av=0.00 map_obj=0.00 map_av_obj=0.80
+2023-12-05 08:43:23,493 root INFO obj is used.
+2023-12-05 08:43:23,515 root INFO sam is used.
+2023-12-05 08:43:39,726 root INFO 42/3360UN02RkbG_U_0_5000: map_av=0.00 map_obj=0.83 map_av_obj=0.83
+2023-12-05 08:43:40,063 root INFO obj is used.
+2023-12-05 08:43:40,086 root INFO sam is used.
+2023-12-05 08:43:56,281 root INFO 43/3360wIFDj6C1BI_0_5000: map_av=0.03 map_obj=0.04 map_av_obj=0.02
+2023-12-05 08:43:57,497 root INFO obj is used.
+2023-12-05 08:43:57,529 root INFO sam is used.
+2023-12-05 08:44:13,777 root INFO 44/3360WL1gKM13mY_1000_6000: map_av=0.00 map_obj=0.86 map_av_obj=0.00
+2023-12-05 08:44:14,271 root INFO obj is used.
+2023-12-05 08:44:14,294 root INFO sam is used.
+2023-12-05 08:44:30,508 root INFO 45/3360x7-rRxJhCw_0_5000: map_av=0.00 map_obj=0.35 map_av_obj=0.01
+2023-12-05 08:44:31,657 root INFO obj is used.
+2023-12-05 08:44:31,688 root INFO sam is used.
+2023-12-05 08:44:47,842 root INFO 46/3360xcBKwbIlU8_0_5000: map_av=0.00 map_obj=0.01 map_av_obj=0.02
+2023-12-05 08:44:48,243 root INFO obj is used.
+2023-12-05 08:44:48,263 root INFO sam is used.
+2023-12-05 08:45:03,178 root INFO 47/3360zjb1cI6aEs_0_5000: map_av=0.00 map_obj=0.79 map_av_obj=0.81
+2023-12-05 08:45:03,610 root INFO obj is used.
+2023-12-05 08:45:03,630 root INFO sam is used.
+2023-12-05 08:45:18,520 root INFO 48/3361_Q80fDGLRM_0_5000: map_av=0.00 map_obj=0.91 map_av_obj=0.91
+2023-12-05 08:45:18,828 root INFO obj is used.
+2023-12-05 08:45:18,847 root INFO sam is used.
+2023-12-05 08:45:33,817 root INFO 49/33615fjb-8IyIQ_5000_10000: map_av=0.33 map_obj=0.00 map_av_obj=0.33
+2023-12-05 08:45:34,116 root INFO obj is used.
+2023-12-05 08:45:34,135 root INFO sam is used.
+2023-12-05 08:45:49,044 root INFO 50/3361AeaGntmKn8_0_5000: map_av=0.00 map_obj=0.04 map_av_obj=0.00
+2023-12-05 08:45:49,500 root INFO obj is used.
+2023-12-05 08:45:49,521 root INFO sam is used.
+2023-12-05 08:46:04,431 root INFO 51/3361bvRkyT2Q5I_0_5000: map_av=0.00 map_obj=0.00 map_av_obj=0.00
+2023-12-05 08:46:05,506 root INFO obj is used.
+2023-12-05 08:46:05,531 root INFO sam is used.
+2023-12-05 08:46:20,558 root INFO 52/3361cCAssjH6KM_0_5000: map_av=0.00 map_obj=0.03 map_av_obj=0.01
+2023-12-05 08:46:20,965 root INFO obj is used.
+2023-12-05 08:46:20,984 root INFO sam is used.
+2023-12-05 08:46:35,919 root INFO 53/3361DjroXqs7bY_0_5000: map_av=0.01 map_obj=0.31 map_av_obj=0.31
+2023-12-05 08:46:36,315 root INFO obj is used.
+2023-12-05 08:46:36,335 root INFO sam is used.
+2023-12-05 08:46:51,306 root INFO 54/3361ETeBLkMRwA_1000_6000: map_av=0.00 map_obj=0.00 map_av_obj=0.57
+2023-12-05 08:46:51,730 root INFO obj is used.
+2023-12-05 08:46:51,749 root INFO sam is used.
+2023-12-05 08:47:06,714 root INFO 55/3361hVUSaCyRXI_0_5000: map_av=0.01 map_obj=0.67 map_av_obj=0.01
+2023-12-05 08:47:07,008 root INFO obj is used.
+2023-12-05 08:47:07,027 root INFO sam is used.
+2023-12-05 08:47:21,975 root INFO 56/3361oAo0Y3JBJk_0_5000: map_av=0.00 map_obj=0.33 map_av_obj=0.33
+2023-12-05 08:47:22,376 root INFO obj is used.
+2023-12-05 08:47:22,398 root INFO sam is used.
+2023-12-05 08:47:37,256 root INFO 57/3361QxDi-op6Qg_5000_10000: map_av=0.04 map_obj=0.39 map_av_obj=0.39
+2023-12-05 08:47:37,669 root INFO obj is used.
+2023-12-05 08:47:37,690 root INFO sam is used.
+2023-12-05 08:47:52,636 root INFO 58/3361sMOkG3Bs9A_0_5000: map_av=0.00 map_obj=0.01 map_av_obj=0.57
+2023-12-05 08:47:52,929 root INFO obj is used.
+2023-12-05 08:47:52,947 root INFO sam is used.
+2023-12-05 08:48:07,833 root INFO 59/3361us197eB6gQ_0_5000: map_av=0.00 map_obj=0.41 map_av_obj=0.41
+2023-12-05 08:48:08,123 root INFO obj is used.
+2023-12-05 08:48:08,143 root INFO sam is used.
+2023-12-05 08:48:23,067 root INFO 60/3361vcZuYMJhFA_0_5000: map_av=0.00 map_obj=0.02 map_av_obj=0.02
+2023-12-05 08:48:23,519 root INFO obj is used.
+2023-12-05 08:48:23,538 root INFO sam is used.
+2023-12-05 08:48:38,442 root INFO 61/3361XBz00U_pv0_0_5000: map_av=0.00 map_obj=0.00 map_av_obj=0.00
+2023-12-05 08:48:39,503 root INFO obj is used.
+2023-12-05 08:48:39,528 root INFO sam is used.
+2023-12-05 08:48:54,477 root INFO 62/3361YukDt0W1fc_2000_7000: map_av=0.00 map_obj=0.16 map_av_obj=0.16
+2023-12-05 08:48:54,881 root INFO obj is used.
+2023-12-05 08:48:54,902 root INFO sam is used.
+2023-12-05 08:49:09,879 root INFO 63/3361ZHIoV0ybVU_0_5000: map_av=0.00 map_obj=0.61 map_av_obj=0.60
+2023-12-05 08:49:10,188 root INFO obj is used.
+2023-12-05 08:49:10,207 root INFO sam is used.
+2023-12-05 08:49:25,111 root INFO 64/33624SJ7XGUoMY_5000_10000: map_av=0.00 map_obj=0.01 map_av_obj=0.01
+2023-12-05 08:49:26,169 root INFO obj is used.
+2023-12-05 08:49:26,194 root INFO sam is used.
+2023-12-05 08:49:41,181 root INFO 65/33628aVNuCBXWw_2000_7000: map_av=0.01 map_obj=0.45 map_av_obj=0.45
+2023-12-05 08:49:41,530 root INFO obj is used.
+2023-12-05 08:49:41,550 root INFO sam is used.
+2023-12-05 08:49:56,420 root INFO 66/3362AD-0-onOTM_0_5000: map_av=0.00 map_obj=0.03 map_av_obj=0.82
+2023-12-05 08:49:57,490 root INFO obj is used.
+2023-12-05 08:49:57,515 root INFO sam is used.
+2023-12-05 08:50:12,451 root INFO 67/3362bDqxE3h270_0_5000: map_av=0.26 map_obj=0.35 map_av_obj=0.35
+2023-12-05 08:50:12,747 root INFO obj is used.
+2023-12-05 08:50:12,765 root INFO sam is used.
+2023-12-05 08:50:27,671 root INFO 68/3362cVk2TTqH0U_0_5000: map_av=0.00 map_obj=0.02 map_av_obj=0.02
+2023-12-05 08:50:28,016 root INFO obj is used.
+2023-12-05 08:50:28,036 root INFO sam is used.
+2023-12-05 08:50:42,932 root INFO 69/3362DaEW8tcMvo_0_5000: map_av=0.00 map_obj=0.10 map_av_obj=0.10
+2023-12-05 08:50:43,347 root INFO obj is used.
+2023-12-05 08:50:43,375 root INFO sam is used.
+2023-12-05 08:50:58,218 root INFO 70/3362djYfdmB6Mk_0_5000: map_av=0.00 map_obj=0.31 map_av_obj=0.00
+2023-12-05 08:50:59,290 root INFO obj is used.
+2023-12-05 08:50:59,315 root INFO sam is used.
+2023-12-05 08:51:14,298 root INFO 71/3362e1juXs5N7U_0_5000: map_av=0.08 map_obj=0.01 map_av_obj=0.08
+2023-12-05 08:51:14,727 root INFO obj is used.
+2023-12-05 08:51:14,747 root INFO sam is used.
+2023-12-05 08:51:29,905 root INFO 72/3362eYaXTKSpMI_0_5000: map_av=0.00 map_obj=0.68 map_av_obj=0.68
+2023-12-05 08:51:30,997 root INFO obj is used.
+2023-12-05 08:51:31,021 root INFO sam is used.
+2023-12-05 08:51:46,070 root INFO 73/3362fIX-p9h_q0_2000_7000: map_av=0.00 map_obj=0.01 map_av_obj=0.00
+2023-12-05 08:51:46,369 root INFO obj is used.
+2023-12-05 08:51:46,390 root INFO sam is used.
+2023-12-05 08:52:01,357 root INFO 74/3362hVYLo6dcoc_5000_10000: map_av=0.00 map_obj=0.00 map_av_obj=0.06
+2023-12-05 08:52:01,781 root INFO obj is used.
+2023-12-05 08:52:01,801 root INFO sam is used.
+2023-12-05 08:52:16,766 root INFO 75/3362i5nFuAmZ6A_0_5000: map_av=0.20 map_obj=0.63 map_av_obj=0.20
+2023-12-05 08:52:17,163 root INFO obj is used.
+2023-12-05 08:52:17,183 root INFO sam is used.
+2023-12-05 08:52:32,415 root INFO 76/3362lj_-APRK9Q_0_5000: map_av=0.00 map_obj=0.14 map_av_obj=0.14
+2023-12-05 08:52:32,829 root INFO obj is used.
+2023-12-05 08:52:32,849 root INFO sam is used.
+2023-12-05 08:52:47,854 root INFO 77/3362MzD4vOV9fY_0_5000: map_av=0.00 map_obj=0.00 map_av_obj=0.00
+2023-12-05 08:52:48,252 root INFO obj is used.
+2023-12-05 08:52:48,272 root INFO sam is used.
+2023-12-05 08:53:03,345 root INFO 78/3362mZkKD9fBmc_0_5000: map_av=0.00 map_obj=0.68 map_av_obj=0.68
+2023-12-05 08:53:04,427 root INFO obj is used.
+2023-12-05 08:53:04,451 root INFO sam is used.
+2023-12-05 08:53:19,539 root INFO 79/3362tmyLqFP41c_5000_10000: map_av=0.00 map_obj=0.57 map_av_obj=0.57
+2023-12-05 08:53:19,943 root INFO obj is used.
+2023-12-05 08:53:19,963 root INFO sam is used.
+2023-12-05 08:53:34,946 root INFO 80/3362VbXrbj2pzg_0_5000: map_av=0.00 map_obj=0.33 map_av_obj=0.33
+2023-12-05 08:53:36,020 root INFO obj is used.
+2023-12-05 08:53:36,045 root INFO sam is used.
+2023-12-05 08:53:51,104 root INFO 81/3362vUe3LakHAo_5000_10000: map_av=0.00 map_obj=0.32 map_av_obj=0.31
+2023-12-05 08:53:51,420 root INFO obj is used.
+2023-12-05 08:53:51,441 root INFO sam is used.
+2023-12-05 08:54:06,515 root INFO 82/3362Yyy4TLH-J4_0_5000: map_av=0.00 map_obj=0.83 map_av_obj=0.83
+2023-12-05 08:54:06,814 root INFO obj is used.
+2023-12-05 08:54:06,832 root INFO sam is used.
+2023-12-05 08:54:21,917 root INFO 83/33633I1uhqdwp4_0_5000: map_av=0.01 map_obj=0.08 map_av_obj=0.08
+2023-12-05 08:54:22,327 root INFO obj is used.
+2023-12-05 08:54:22,347 root INFO sam is used.
+2023-12-05 08:54:37,263 root INFO 84/3363G6CJHZEVYM_0_5000: map_av=0.00 map_obj=0.00 map_av_obj=0.00
+2023-12-05 08:54:38,330 root INFO obj is used.
+2023-12-05 08:54:38,366 root INFO sam is used.
+2023-12-05 08:54:53,452 root INFO 85/3363heg7kHLkBw_5000_10000: map_av=0.01 map_obj=0.00 map_av_obj=0.00
+2023-12-05 08:54:53,868 root INFO obj is used.
+2023-12-05 08:54:53,887 root INFO sam is used.
+2023-12-05 08:55:09,019 root INFO 86/3363Hmq3CqPKfw_0_5000: map_av=0.00 map_obj=0.20 map_av_obj=0.43
+2023-12-05 08:55:09,307 root INFO obj is used.
+2023-12-05 08:55:09,325 root INFO sam is used.
+2023-12-05 08:55:24,374 root INFO 87/3363HSRX24Nj4Q_0_5000: map_av=0.00 map_obj=0.93 map_av_obj=0.93
+2023-12-05 08:55:24,775 root INFO obj is used.
+2023-12-05 08:55:24,794 root INFO sam is used.
+2023-12-05 08:55:39,844 root INFO 88/3363HTL5bQvsDk_5000_10000: map_av=0.00 map_obj=0.50 map_av_obj=0.55
+2023-12-05 08:55:40,138 root INFO obj is used.
+2023-12-05 08:55:40,157 root INFO sam is used.
+2023-12-05 08:55:55,155 root INFO 89/3363isOx39nAVs_3000_8000: map_av=0.00 map_obj=0.24 map_av_obj=0.65
+2023-12-05 08:55:55,494 root INFO obj is used.
+2023-12-05 08:55:55,513 root INFO sam is used.
+2023-12-05 08:56:10,501 root INFO 90/3363jC14BzR4rs_0_5000: map_av=0.00 map_obj=0.73 map_av_obj=0.00
+2023-12-05 08:56:10,926 root INFO obj is used.
+2023-12-05 08:56:10,945 root INFO sam is used.
+2023-12-05 08:56:25,976 root INFO 91/3363JW2_vZtzFg_0_5000: map_av=0.00 map_obj=0.10 map_av_obj=0.06
+2023-12-05 08:56:26,429 root INFO obj is used.
+2023-12-05 08:56:26,450 root INFO sam is used.
+2023-12-05 08:56:41,498 root INFO 92/3363ncqSfjo8U4_3000_8000: map_av=0.00 map_obj=0.01 map_av_obj=0.01
+2023-12-05 08:56:41,752 root INFO obj is used.
+2023-12-05 08:56:41,768 root INFO sam is used.
+2023-12-05 08:56:57,025 root INFO 93/3363oiBBirw4H8_0_5000: map_av=0.00 map_obj=0.01 map_av_obj=0.00
+2023-12-05 08:56:57,320 root INFO obj is used.
+2023-12-05 08:56:57,338 root INFO sam is used.
+2023-12-05 08:57:12,401 root INFO 94/3363qaVPWjI7KQ_0_5000: map_av=0.00 map_obj=0.51 map_av_obj=0.00
+2023-12-05 08:57:12,825 root INFO obj is used.
+2023-12-05 08:57:12,845 root INFO sam is used.
+2023-12-05 08:57:27,961 root INFO 95/3363Rnh22kZZO8_0_5000: map_av=0.01 map_obj=0.43 map_av_obj=0.43
+2023-12-05 08:57:28,258 root INFO obj is used.
+2023-12-05 08:57:28,277 root INFO sam is used.
+2023-12-05 08:57:43,378 root INFO 96/3363SxgU9jRuLU_5000_10000: map_av=0.24 map_obj=0.58 map_av_obj=0.58
+2023-12-05 08:57:43,801 root INFO obj is used.
+2023-12-05 08:57:43,820 root INFO sam is used.
+2023-12-05 08:57:58,853 root INFO 97/3363UGWppIS6eI_0_5000: map_av=0.23 map_obj=0.23 map_av_obj=0.23
+2023-12-05 08:57:59,264 root INFO obj is used.
+2023-12-05 08:57:59,283 root INFO sam is used.
+2023-12-05 08:58:14,385 root INFO 98/3363vsAMbBywW8_5000_10000: map_av=0.00 map_obj=0.78 map_av_obj=0.78
+2023-12-05 08:58:14,682 root INFO obj is used.
+2023-12-05 08:58:14,701 root INFO sam is used.
+2023-12-05 08:58:29,834 root INFO 99/3363yXCtpvjz6E_0_5000: map_av=0.00 map_obj=0.43 map_av_obj=0.95
+2023-12-05 08:58:30,246 root INFO obj is used.
+2023-12-05 08:58:30,265 root INFO sam is used.
+2023-12-05 08:58:45,396 root INFO 100/33649qZtbMmFbg_0_5000: map_av=0.00 map_obj=0.00 map_av_obj=0.00
+2023-12-05 08:58:45,697 root INFO obj is used.
+2023-12-05 08:58:45,716 root INFO sam is used.
+2023-12-05 08:59:00,754 root INFO 101/3364f4T1k-WsEk_0_5000: map_av=0.00 map_obj=0.00 map_av_obj=0.00
+2023-12-05 08:59:01,170 root INFO obj is used.
+2023-12-05 08:59:01,190 root INFO sam is used.
+2023-12-05 08:59:16,234 root INFO 102/3364hlPEicuOKM_0_5000: map_av=0.00 map_obj=0.20 map_av_obj=0.00
+2023-12-05 08:59:16,659 root INFO obj is used.
+2023-12-05 08:59:16,679 root INFO sam is used.
+2023-12-05 08:59:31,793 root INFO 103/3364jW7xTLOjtc_5000_10000: map_av=0.00 map_obj=0.30 map_av_obj=0.30
+2023-12-05 08:59:32,881 root INFO obj is used.
+2023-12-05 08:59:32,905 root INFO sam is used.
+2023-12-05 08:59:48,047 root INFO 104/3364PRsohAVsDw_0_5000: map_av=0.00 map_obj=0.79 map_av_obj=0.79
+2023-12-05 08:59:48,353 root INFO obj is used.
+2023-12-05 08:59:48,375 root INFO sam is used.
+2023-12-05 09:00:03,461 root INFO 105/3364Twu1pnUlpo_0_5000: map_av=0.00 map_obj=0.27 map_av_obj=0.27
+2023-12-05 09:00:03,762 root INFO obj is used.
+2023-12-05 09:00:03,781 root INFO sam is used.
+2023-12-05 09:00:19,156 root INFO 106/3364yuoG53SMyQ_3000_8000: map_av=0.02 map_obj=0.87 map_av_obj=0.86
+2023-12-05 09:00:19,563 root INFO obj is used.
+2023-12-05 09:00:19,582 root INFO sam is used.
+2023-12-05 09:00:35,343 root INFO 107/3364z1iIHvWv38_0_5000: map_av=0.00 map_obj=0.41 map_av_obj=0.09
+2023-12-05 09:00:35,774 root INFO obj is used.
+2023-12-05 09:00:35,798 root INFO sam is used.
+2023-12-05 09:00:52,223 root INFO 108/33657fjUzulv9c_4000_9000: map_av=0.00 map_obj=0.00 map_av_obj=0.01
+2023-12-05 09:00:52,667 root INFO obj is used.
+2023-12-05 09:00:52,691 root INFO sam is used.
+2023-12-05 09:01:09,155 root INFO 109/3365bJagj3V6Lo_0_5000: map_av=0.24 map_obj=0.67 map_av_obj=0.17
+2023-12-05 09:01:10,378 root INFO obj is used.
+2023-12-05 09:01:10,408 root INFO sam is used.
+2023-12-05 09:01:26,660 root INFO 110/3365csYYtS7Pck_0_5000: map_av=0.00 map_obj=0.84 map_av_obj=0.84
+2023-12-05 09:01:27,862 root INFO obj is used.
+2023-12-05 09:01:27,894 root INFO sam is used.
+2023-12-05 09:01:44,079 root INFO 111/3365cxMHAETn-E_0_5000: map_av=0.00 map_obj=0.07 map_av_obj=0.00
+2023-12-05 09:01:45,217 root INFO obj is used.
+2023-12-05 09:01:45,248 root INFO sam is used.
+2023-12-05 09:02:02,524 root INFO 112/3365eI4R5Tg-Gs_5000_10000: map_av=0.00 map_obj=0.12 map_av_obj=0.12
+2023-12-05 09:02:03,015 root INFO obj is used.
+2023-12-05 09:02:03,039 root INFO sam is used.
+2023-12-05 09:02:19,326 root INFO 113/3365IU4puYETJ0_0_5000: map_av=0.02 map_obj=0.07 map_av_obj=0.00
+2023-12-05 09:02:19,679 root INFO obj is used.
+2023-12-05 09:02:19,701 root INFO sam is used.
+2023-12-05 09:02:35,907 root INFO 114/3365jI6Hrxo4ZE_0_5000: map_av=0.00 map_obj=0.00 map_av_obj=0.00
+2023-12-05 09:02:36,261 root INFO obj is used.
+2023-12-05 09:02:36,285 root INFO sam is used.
+2023-12-05 09:02:52,724 root INFO 115/3365lmG4QaXfMI_2000_7000: map_av=0.00 map_obj=0.36 map_av_obj=0.37
+2023-12-05 09:02:53,046 root INFO obj is used.
+2023-12-05 09:02:53,069 root INFO sam is used.
+2023-12-05 09:03:09,494 root INFO 116/3365NmZFSl1imo_0_5000: map_av=0.14 map_obj=0.22 map_av_obj=0.22
+2023-12-05 09:03:09,964 root INFO obj is used.
+2023-12-05 09:03:09,988 root INFO sam is used.
+2023-12-05 09:03:26,191 root INFO 117/3365o5Nzcaddg4_0_5000: map_av=0.09 map_obj=0.11 map_av_obj=0.11
+2023-12-05 09:03:26,651 root INFO obj is used.
+2023-12-05 09:03:26,675 root INFO sam is used.
+2023-12-05 09:03:42,925 root INFO 118/3365OEvBmTRsEE_0_5000: map_av=0.00 map_obj=0.89 map_av_obj=0.89
+2023-12-05 09:03:44,164 root INFO obj is used.
+2023-12-05 09:03:44,194 root INFO sam is used.
+2023-12-05 09:04:00,635 root INFO 119/3365OGUvwQxWtw_0_5000: map_av=0.00 map_obj=0.65 map_av_obj=0.00
+2023-12-05 09:04:00,976 root INFO obj is used.
+2023-12-05 09:04:00,999 root INFO sam is used.
+2023-12-05 09:04:17,291 root INFO 120/3365VBZVkVKKuY_0_5000: map_av=0.00 map_obj=0.00 map_av_obj=0.00
+2023-12-05 09:04:18,498 root INFO obj is used.
+2023-12-05 09:04:18,529 root INFO sam is used.
+2023-12-05 09:04:34,941 root INFO 121/33664fMq6IOFNg_0_5000: map_av=0.00 map_obj=0.87 map_av_obj=0.01
+2023-12-05 09:04:35,387 root INFO obj is used.
+2023-12-05 09:04:35,411 root INFO sam is used.
+2023-12-05 09:04:52,029 root INFO 122/33666Nv3tou3aA_0_5000: map_av=0.44 map_obj=0.36 map_av_obj=0.36
+2023-12-05 09:04:52,543 root INFO obj is used.
+2023-12-05 09:04:52,568 root INFO sam is used.
+2023-12-05 09:05:09,263 root INFO 123/3366EckDSXOPyw_0_5000: map_av=0.00 map_obj=0.54 map_av_obj=0.35
+2023-12-05 09:05:10,438 root INFO obj is used.
+2023-12-05 09:05:10,469 root INFO sam is used.
+2023-12-05 09:05:27,334 root INFO 124/3366KiFICzs6UI_0_5000: map_av=0.00 map_obj=0.00 map_av_obj=0.00
+2023-12-05 09:05:27,808 root INFO obj is used.
+2023-12-05 09:05:27,833 root INFO sam is used.
+2023-12-05 09:05:44,032 root INFO 125/3366M3WoKhWgUU_0_5000: map_av=0.20 map_obj=0.32 map_av_obj=0.32
+2023-12-05 09:05:45,267 root INFO obj is used.
+2023-12-05 09:05:45,298 root INFO sam is used.
+2023-12-05 09:06:01,585 root INFO 126/3366MST-YckqQ0_0_5000: map_av=0.01 map_obj=0.95 map_av_obj=0.96
+2023-12-05 09:06:02,782 root INFO obj is used.
+2023-12-05 09:06:02,812 root INFO sam is used.
+2023-12-05 09:06:18,654 root INFO 127/3366nw7Fuu2_d0_0_5000: map_av=0.01 map_obj=0.00 map_av_obj=0.00
+2023-12-05 09:06:19,058 root INFO obj is used.
+2023-12-05 09:06:19,078 root INFO sam is used.
+2023-12-05 09:06:33,953 root INFO 128/3366NWyM2OlvlI_5000_10000: map_av=0.00 map_obj=0.89 map_av_obj=0.89
+2023-12-05 09:06:34,247 root INFO obj is used.
+2023-12-05 09:06:34,266 root INFO sam is used.
+2023-12-05 09:06:49,223 root INFO 129/3366u6zaVPBsiE_0_5000: map_av=0.00 map_obj=0.53 map_av_obj=0.09
+2023-12-05 09:06:49,620 root INFO obj is used.
+2023-12-05 09:06:49,638 root INFO sam is used.
+2023-12-05 09:07:04,596 root INFO 130/3366wJd7WKgXKo_1000_6000: map_av=0.55 map_obj=0.04 map_av_obj=0.04
+2023-12-05 09:07:05,660 root INFO obj is used.
+2023-12-05 09:07:05,686 root INFO sam is used.
+2023-12-05 09:07:20,675 root INFO 131/3366zwSfh9rFM8_0_5000: map_av=0.00 map_obj=0.93 map_av_obj=0.93
+2023-12-05 09:07:21,744 root INFO obj is used.
+2023-12-05 09:07:21,768 root INFO sam is used.
+2023-12-05 09:07:36,648 root INFO 132/33673cfZ0ugMkc_0_5000: map_av=0.00 map_obj=0.45 map_av_obj=0.45
+2023-12-05 09:07:37,061 root INFO obj is used.
+2023-12-05 09:07:37,081 root INFO sam is used.
+2023-12-05 09:07:51,961 root INFO 133/3367eqvYcGLuHs_0_5000: map_av=0.06 map_obj=0.76 map_av_obj=0.76
+2023-12-05 09:07:52,280 root INFO obj is used.
+2023-12-05 09:07:52,301 root INFO sam is used.
+2023-12-05 09:08:07,309 root INFO 134/3367FCZsnQr4i0_3000_8000: map_av=0.39 map_obj=0.01 map_av_obj=0.01
+2023-12-05 09:08:07,717 root INFO obj is used.
+2023-12-05 09:08:07,740 root INFO sam is used.
+2023-12-05 09:08:22,578 root INFO 135/3367JNCVMNJ0Mw_0_5000: map_av=0.00 map_obj=0.06 map_av_obj=0.52
+2023-12-05 09:08:22,984 root INFO obj is used.
+2023-12-05 09:08:23,004 root INFO sam is used.
+2023-12-05 09:08:37,911 root INFO 136/3367WoR1bTCyj0_2000_7000: map_av=0.00 map_obj=0.77 map_av_obj=0.77
+2023-12-05 09:08:38,319 root INFO obj is used.
+2023-12-05 09:08:38,341 root INFO sam is used.
+2023-12-05 09:08:54,348 root INFO 137/3367WwkT9fR508_0_5000: map_av=0.01 map_obj=0.00 map_av_obj=0.72
+2023-12-05 09:08:54,673 root INFO obj is used.
+2023-12-05 09:08:54,693 root INFO sam is used.
+2023-12-05 09:09:11,193 root INFO 138/33684joiXni4uk_5000_10000: map_av=0.17 map_obj=0.85 map_av_obj=0.72
+2023-12-05 09:09:12,369 root INFO obj is used.
+2023-12-05 09:09:12,394 root INFO sam is used.
+2023-12-05 09:09:28,565 root INFO 139/3368A27nWeMxSM_3000_8000: map_av=0.64 map_obj=0.00 map_av_obj=0.00
+2023-12-05 09:09:28,877 root INFO obj is used.
+2023-12-05 09:09:28,897 root INFO sam is used.
+2023-12-05 09:09:45,041 root INFO 140/3368CcpUJCVQNA_0_5000: map_av=0.00 map_obj=0.35 map_av_obj=0.01
+2023-12-05 09:09:46,232 root INFO obj is used.
+2023-12-05 09:09:46,263 root INFO sam is used.
+2023-12-05 09:10:02,297 root INFO 141/3368DrH-QredaQ_3000_8000: map_av=0.01 map_obj=0.50 map_av_obj=0.54
+2023-12-05 09:10:02,805 root INFO obj is used.
+2023-12-05 09:10:02,825 root INFO sam is used.
+2023-12-05 09:10:18,626 root INFO 142/3368JgqLELdUkY_1000_6000: map_av=0.00 map_obj=0.11 map_av_obj=0.00
+2023-12-05 09:10:19,882 root INFO obj is used.
+2023-12-05 09:10:19,909 root INFO sam is used.
+2023-12-05 09:10:36,041 root INFO 143/3368K7OiwKgR08_3000_8000: map_av=0.71 map_obj=0.72 map_av_obj=0.72
+2023-12-05 09:10:36,415 root INFO obj is used.
+2023-12-05 09:10:36,434 root INFO sam is used.
+2023-12-05 09:10:51,672 root INFO 144/3368pHpKFqV6fA_0_5000: map_av=0.00 map_obj=0.68 map_av_obj=0.62
+2023-12-05 09:10:51,968 root INFO obj is used.
+2023-12-05 09:10:51,987 root INFO sam is used.
+2023-12-05 09:11:07,117 root INFO 145/3368qudA2Or_sY_0_5000: map_av=0.00 map_obj=0.24 map_av_obj=0.24
+2023-12-05 09:11:07,529 root INFO obj is used.
+2023-12-05 09:11:07,548 root INFO sam is used.
+2023-12-05 09:11:22,647 root INFO 146/3368xoenlVVBZw_2000_7000: map_av=0.00 map_obj=0.11 map_av_obj=0.11
+2023-12-05 09:11:23,051 root INFO obj is used.
+2023-12-05 09:11:23,070 root INFO sam is used.
+2023-12-05 09:11:38,145 root INFO 147/3368YtNJrOdnl4_0_5000: map_av=0.00 map_obj=0.02 map_av_obj=0.27
+2023-12-05 09:11:39,227 root INFO obj is used.
+2023-12-05 09:11:39,255 root INFO sam is used.
+2023-12-05 09:11:54,332 root INFO 148/3368Zo30kV5aiI_0_5000: map_av=0.01 map_obj=0.11 map_av_obj=0.06
+2023-12-05 09:11:55,412 root INFO obj is used.
+2023-12-05 09:11:55,438 root INFO sam is used.
+2023-12-05 09:12:10,710 root INFO 149/33698botKAWg3I_0_5000: map_av=0.00 map_obj=0.01 map_av_obj=0.09
+2023-12-05 09:12:11,021 root INFO obj is used.
+2023-12-05 09:12:11,041 root INFO sam is used.
+2023-12-05 09:12:26,294 root INFO 150/3369q_ZmFjlWwE_0_5000: map_av=0.00 map_obj=0.08 map_av_obj=0.08
+2023-12-05 09:12:26,591 root INFO obj is used.
+2023-12-05 09:12:26,611 root INFO sam is used.
+2023-12-05 09:12:41,718 root INFO 151/3369VDtaUhOW2o_0_5000: map_av=0.00 map_obj=0.03 map_av_obj=0.02
+2023-12-05 09:12:42,013 root INFO obj is used.
+2023-12-05 09:12:42,031 root INFO sam is used.
+2023-12-05 09:12:57,020 root INFO 152/3369xV0nmojVeg_0_5000: map_av=0.04 map_obj=0.38 map_av_obj=0.38
+2023-12-05 09:12:58,109 root INFO obj is used.
+2023-12-05 09:12:58,133 root INFO sam is used.
+2023-12-05 09:13:13,460 root INFO 153/336aJb09Ttp69Q_0_5000: map_av=0.00 map_obj=0.24 map_av_obj=0.24
+2023-12-05 09:13:14,567 root INFO obj is used.
+2023-12-05 09:13:14,592 root INFO sam is used.
+2023-12-05 09:13:29,821 root INFO 154/336AKxm4V3OylU_0_5000: map_av=0.00 map_obj=0.91 map_av_obj=0.91
+2023-12-05 09:13:30,116 root INFO obj is used.
+2023-12-05 09:13:30,135 root INFO sam is used.
+2023-12-05 09:13:45,459 root INFO 155/336am52p3RiYFQ_5000_10000: map_av=0.01 map_obj=0.69 map_av_obj=0.69
+2023-12-05 09:13:45,888 root INFO obj is used.
+2023-12-05 09:13:45,908 root INFO sam is used.
+2023-12-05 09:14:01,448 root INFO 156/336amaJKBdFy3w_5000_10000: map_av=0.29 map_obj=0.00 map_av_obj=0.29
+2023-12-05 09:14:02,496 root INFO obj is used.
+2023-12-05 09:14:02,521 root INFO sam is used.
+2023-12-05 09:14:18,090 root INFO 157/336apgxqR4UL0A_0_5000: map_av=0.00 map_obj=0.39 map_av_obj=0.00
+2023-12-05 09:14:19,213 root INFO obj is used.
+2023-12-05 09:14:19,239 root INFO sam is used.
+2023-12-05 09:14:34,669 root INFO 158/336ASgIPoBZfWY_0_5000: map_av=0.00 map_obj=0.89 map_av_obj=0.84
+2023-12-05 09:14:35,179 root INFO obj is used.
+2023-12-05 09:14:35,199 root INFO sam is used.
+2023-12-05 09:14:50,266 root INFO 159/336AShV_-0mAVI_0_5000: map_av=0.00 map_obj=0.48 map_av_obj=0.52
+2023-12-05 09:14:51,329 root INFO obj is used.
+2023-12-05 09:14:51,354 root INFO sam is used.
+2023-12-05 09:15:06,459 root INFO 160/336aT7Xt3KsAzk_0_5000: map_av=0.00 map_obj=0.09 map_av_obj=0.09
+2023-12-05 09:15:06,759 root INFO obj is used.
+2023-12-05 09:15:06,779 root INFO sam is used.
+2023-12-05 09:15:21,730 root INFO 161/336aUCvBsCtJMs_4000_9000: map_av=0.00 map_obj=0.06 map_av_obj=0.06
+2023-12-05 09:15:22,083 root INFO obj is used.
+2023-12-05 09:15:22,102 root INFO sam is used.
+2023-12-05 09:15:36,989 root INFO 162/336AVYgXyWnAyY_2000_7000: map_av=0.01 map_obj=0.64 map_av_obj=0.00
+2023-12-05 09:15:37,407 root INFO obj is used.
+2023-12-05 09:15:37,426 root INFO sam is used.
+2023-12-05 09:15:52,353 root INFO 163/336awO9pIgeCgQ_3000_8000: map_av=0.00 map_obj=0.65 map_av_obj=0.00
+2023-12-05 09:15:52,928 root INFO obj is used.
+2023-12-05 09:15:52,950 root INFO sam is used.
+2023-12-05 09:16:07,762 root INFO 164/336awXSgxVMSFU_0_5000: map_av=0.00 map_obj=0.55 map_av_obj=0.55
+2023-12-05 09:16:08,828 root INFO obj is used.
+2023-12-05 09:16:08,853 root INFO sam is used.
+2023-12-05 09:16:23,778 root INFO 165/336AxeN3Geyzf4_0_5000: map_av=0.91 map_obj=0.98 map_av_obj=0.98
+2023-12-05 09:16:24,872 root INFO obj is used.
+2023-12-05 09:16:24,898 root INFO sam is used.
+2023-12-05 09:16:39,856 root INFO 166/336AXqwq9dOWyc_0_5000: map_av=0.00 map_obj=0.06 map_av_obj=0.06
+2023-12-05 09:16:40,146 root INFO obj is used.
+2023-12-05 09:16:40,165 root INFO sam is used.
+2023-12-05 09:16:55,112 root INFO 167/336AyD5j1ueT1M_3000_8000: map_av=0.00 map_obj=0.78 map_av_obj=0.02
+2023-12-05 09:16:55,518 root INFO obj is used.
+2023-12-05 09:16:55,539 root INFO sam is used.
+2023-12-05 09:17:10,364 root INFO 168/336b0D-rIsEsIY_0_5000: map_av=0.58 map_obj=0.59 map_av_obj=0.59
+2023-12-05 09:17:10,769 root INFO obj is used.
+2023-12-05 09:17:10,788 root INFO sam is used.
+2023-12-05 09:17:25,745 root INFO 169/336b3osEsLC6JA_2000_7000: map_av=0.00 map_obj=0.87 map_av_obj=0.87
+2023-12-05 09:17:26,140 root INFO obj is used.
+2023-12-05 09:17:26,161 root INFO sam is used.
+2023-12-05 09:17:41,011 root INFO 170/336B6kHGmBYycY_0_5000: map_av=0.00 map_obj=0.90 map_av_obj=0.90
+2023-12-05 09:17:41,412 root INFO obj is used.
+2023-12-05 09:17:41,432 root INFO sam is used.
+2023-12-05 09:17:56,275 root INFO 171/336B9hMF_Eq-F8_2000_7000: map_av=0.00 map_obj=0.00 map_av_obj=0.00
+2023-12-05 09:17:57,338 root INFO obj is used.
+2023-12-05 09:17:57,363 root INFO sam is used.
+2023-12-05 09:18:12,490 root INFO 172/336BCcdatk468s_1000_6000: map_av=0.00 map_obj=0.80 map_av_obj=0.80
+2023-12-05 09:18:13,563 root INFO obj is used.
+2023-12-05 09:18:13,588 root INFO sam is used.
+2023-12-05 09:18:28,698 root INFO 173/336BEGgDbKEXMw_0_5000: map_av=0.78 map_obj=0.74 map_av_obj=0.74
+2023-12-05 09:18:29,115 root INFO obj is used.
+2023-12-05 09:18:29,136 root INFO sam is used.
+2023-12-05 09:18:44,194 root INFO 174/336BH7GgB5Xf-Y_0_5000: map_av=0.00 map_obj=0.00 map_av_obj=0.00
+2023-12-05 09:18:45,267 root INFO obj is used.
+2023-12-05 09:18:45,292 root INFO sam is used.
+2023-12-05 09:19:00,428 root INFO 175/336BXhJJ5L7vx8_1000_6000: map_av=0.00 map_obj=0.89 map_av_obj=0.89
+2023-12-05 09:19:00,722 root INFO obj is used.
+2023-12-05 09:19:00,742 root INFO sam is used.
+2023-12-05 09:19:15,692 root INFO 176/336bzl2-XRl4D4_4000_9000: map_av=0.48 map_obj=0.24 map_av_obj=0.24
+2023-12-05 09:19:16,098 root INFO obj is used.
+2023-12-05 09:19:16,117 root INFO sam is used.
+2023-12-05 09:19:31,183 root INFO 177/336c1c64emKOnU_5000_10000: map_av=0.00 map_obj=0.72 map_av_obj=0.70
+2023-12-05 09:19:31,579 root INFO obj is used.
+2023-12-05 09:19:31,598 root INFO sam is used.
+2023-12-05 09:19:47,457 root INFO 178/336ca2hSZyHSrc_0_5000: map_av=0.00 map_obj=0.00 map_av_obj=0.00
+2023-12-05 09:19:47,804 root INFO obj is used.
+2023-12-05 09:19:47,826 root INFO sam is used.
+2023-12-05 09:20:04,067 root INFO 179/336CfO-lBWDvko_5000_10000: map_av=0.00 map_obj=0.74 map_av_obj=0.73
+2023-12-05 09:20:04,552 root INFO obj is used.
+2023-12-05 09:20:04,576 root INFO sam is used.
+2023-12-05 09:20:20,670 root INFO 180/336CIRU6b1ZNDg_0_5000: map_av=0.06 map_obj=0.34 map_av_obj=0.00
+2023-12-05 09:20:21,035 root INFO obj is used.
+2023-12-05 09:20:21,057 root INFO sam is used.
+2023-12-05 09:20:37,169 root INFO 181/336Ck4V96rptIM_2000_7000: map_av=0.03 map_obj=0.00 map_av_obj=0.03
+2023-12-05 09:20:37,704 root INFO obj is used.
+2023-12-05 09:20:37,728 root INFO sam is used.
+2023-12-05 09:20:53,854 root INFO 182/336CkcGPy20OnE_2000_7000: map_av=0.00 map_obj=0.23 map_av_obj=0.23
+2023-12-05 09:20:54,182 root INFO obj is used.
+2023-12-05 09:20:54,203 root INFO sam is used.
+2023-12-05 09:21:10,252 root INFO 183/336cRhLsgzolXc_0_5000: map_av=0.37 map_obj=0.25 map_av_obj=0.25
+2023-12-05 09:21:11,432 root INFO obj is used.
+2023-12-05 09:21:11,463 root INFO sam is used.
+2023-12-05 09:21:27,705 root INFO 184/336cRt6_axWZqY_0_5000: map_av=0.00 map_obj=0.93 map_av_obj=0.93
+2023-12-05 09:21:28,899 root INFO obj is used.
+2023-12-05 09:21:28,930 root INFO sam is used.
+2023-12-05 09:21:45,081 root INFO 185/336CuaFhfDfe5c_4000_9000: map_av=0.00 map_obj=0.52 map_av_obj=0.52
+2023-12-05 09:21:45,424 root INFO obj is used.
+2023-12-05 09:21:45,448 root INFO sam is used.
+2023-12-05 09:22:01,475 root INFO 186/336D01sCxeHShY_0_5000: map_av=0.00 map_obj=0.37 map_av_obj=0.36
+2023-12-05 09:22:02,644 root INFO obj is used.
+2023-12-05 09:22:02,675 root INFO sam is used.
+2023-12-05 09:22:18,865 root INFO 187/336d2gP7PJV4EU_4000_9000: map_av=0.00 map_obj=0.95 map_av_obj=0.95
+2023-12-05 09:22:19,313 root INFO obj is used.
+2023-12-05 09:22:19,336 root INFO sam is used.
+2023-12-05 09:22:35,435 root INFO 188/336d3jUeM6s9zs_0_5000: map_av=0.36 map_obj=0.36 map_av_obj=0.36
+2023-12-05 09:22:36,619 root INFO obj is used.
+2023-12-05 09:22:36,650 root INFO sam is used.
+2023-12-05 09:22:52,897 root INFO 189/336Dc9nmBpMtz8_0_5000: map_av=0.46 map_obj=0.40 map_av_obj=0.40
+2023-12-05 09:22:54,126 root INFO obj is used.
+2023-12-05 09:22:54,157 root INFO sam is used.
+2023-12-05 09:23:10,364 root INFO 190/336DEBAdhREhpw_4000_9000: map_av=0.00 map_obj=0.04 map_av_obj=0.06
+2023-12-05 09:23:11,626 root INFO obj is used.
+2023-12-05 09:23:11,657 root INFO sam is used.
+2023-12-05 09:23:27,892 root INFO 191/336dgoncIz632s_0_5000: map_av=0.00 map_obj=0.00 map_av_obj=0.00
+2023-12-05 09:23:29,112 root INFO obj is used.
+2023-12-05 09:23:29,143 root INFO sam is used.
+2023-12-05 09:23:45,354 root INFO 192/336DhFVH7Dvz8A_5000_10000: map_av=0.00 map_obj=0.00 map_av_obj=0.00
+2023-12-05 09:23:45,858 root INFO obj is used.
+2023-12-05 09:23:45,882 root INFO sam is used.
+2023-12-05 09:24:02,064 root INFO 193/336dhU-DJSBplM_0_5000: map_av=0.00 map_obj=0.54 map_av_obj=0.00
+2023-12-05 09:24:03,308 root INFO obj is used.
+2023-12-05 09:24:03,339 root INFO sam is used.
+2023-12-05 09:24:19,614 root INFO 194/336DPlSp0M9Mgs_6000_11000: map_av=0.01 map_obj=0.91 map_av_obj=0.91
+2023-12-05 09:24:20,043 root INFO obj is used.
+2023-12-05 09:24:20,067 root INFO sam is used.
+2023-12-05 09:24:36,289 root INFO 195/336DWj7WUnXPWU_0_5000: map_av=0.00 map_obj=0.59 map_av_obj=0.00
+2023-12-05 09:24:37,501 root INFO obj is used.
+2023-12-05 09:24:37,532 root INFO sam is used.
+2023-12-05 09:24:53,753 root INFO 196/336E_MSs3OoEFQ_0_5000: map_av=0.00 map_obj=0.04 map_av_obj=0.04
+2023-12-05 09:24:54,902 root INFO obj is used.
+2023-12-05 09:24:54,933 root INFO sam is used.
+2023-12-05 09:25:11,087 root INFO 197/336EayfYT-Oqbs_0_5000: map_av=0.00 map_obj=0.19 map_av_obj=0.01
+2023-12-05 09:25:12,276 root INFO obj is used.
+2023-12-05 09:25:12,307 root INFO sam is used.
+2023-12-05 09:25:28,731 root INFO 198/336EBGWeYbdmy4_5000_10000: map_av=0.00 map_obj=0.33 map_av_obj=0.33
+2023-12-05 09:25:29,104 root INFO obj is used.
+2023-12-05 09:25:29,127 root INFO sam is used.
+2023-12-05 09:25:45,331 root INFO 199/336EE6HNe0Y3h4_0_5000: map_av=0.00 map_obj=0.00 map_av_obj=0.00
+2023-12-05 09:25:46,549 root INFO obj is used.
+2023-12-05 09:25:46,580 root INFO sam is used.
+2023-12-05 09:26:02,727 root INFO 200/336EfzeuQ8cVcM_0_5000: map_av=0.00 map_obj=0.65 map_av_obj=0.65
+2023-12-05 09:26:03,185 root INFO obj is used.
+2023-12-05 09:26:03,209 root INFO sam is used.
+2023-12-05 09:26:19,558 root INFO 201/336ehMLK2EC1n4_4000_9000: map_av=0.00 map_obj=0.85 map_av_obj=0.87
+2023-12-05 09:26:20,121 root INFO obj is used.
+2023-12-05 09:26:20,145 root INFO sam is used.
+2023-12-05 09:26:36,581 root INFO 202/336ER4JlOeKCpo_3000_8000: map_av=0.00 map_obj=0.03 map_av_obj=0.85
+2023-12-05 09:26:37,007 root INFO obj is used.
+2023-12-05 09:26:37,031 root INFO sam is used.
+2023-12-05 09:26:53,249 root INFO 203/336ETh_6BApXeM_0_5000: map_av=0.00 map_obj=0.62 map_av_obj=0.62
+2023-12-05 09:26:53,624 root INFO obj is used.
+2023-12-05 09:26:53,646 root INFO sam is used.
+2023-12-05 09:27:09,743 root INFO 204/336EvPBvMx_XTU_0_5000: map_av=0.00 map_obj=0.70 map_av_obj=0.70
+2023-12-05 09:27:10,092 root INFO obj is used.
+2023-12-05 09:27:10,116 root INFO sam is used.
+2023-12-05 09:27:27,350 root INFO 205/336f9G1nNYGPIY_2000_7000: map_av=0.18 map_obj=0.18 map_av_obj=0.18
+2023-12-05 09:27:27,804 root INFO obj is used.
+2023-12-05 09:27:27,828 root INFO sam is used.
+2023-12-05 09:27:44,404 root INFO 206/336fJNauQt9Di0_0_5000: map_av=0.00 map_obj=0.08 map_av_obj=0.08
+2023-12-05 09:27:44,857 root INFO obj is used.
+2023-12-05 09:27:44,880 root INFO sam is used.
+2023-12-05 09:28:01,228 root INFO 207/336fO2HS7_fZb0_0_5000: map_av=0.27 map_obj=0.03 map_av_obj=0.18
+2023-12-05 09:28:01,561 root INFO obj is used.
+2023-12-05 09:28:01,584 root INFO sam is used.
+2023-12-05 09:28:17,889 root INFO 208/336fp8O56_p-3A_0_5000: map_av=0.00 map_obj=0.34 map_av_obj=0.34
+2023-12-05 09:28:19,220 root INFO obj is used.
+2023-12-05 09:28:19,251 root INFO sam is used.
+2023-12-05 09:28:36,059 root INFO 209/336FqzXCqqehlY_2000_7000: map_av=0.00 map_obj=0.00 map_av_obj=0.00
+2023-12-05 09:28:36,392 root INFO obj is used.
+2023-12-05 09:28:36,416 root INFO sam is used.
+2023-12-05 09:28:53,129 root INFO 210/336FUhyWzVd71Y_0_5000: map_av=0.02 map_obj=0.01 map_av_obj=0.01
+2023-12-05 09:28:53,438 root INFO obj is used.
+2023-12-05 09:28:53,460 root INFO sam is used.
+2023-12-05 09:29:09,744 root INFO 211/336G2zC8-a0YJg_0_5000: map_av=0.00 map_obj=0.18 map_av_obj=0.00
+2023-12-05 09:29:10,230 root INFO obj is used.
+2023-12-05 09:29:10,254 root INFO sam is used.
+2023-12-05 09:29:26,550 root INFO 212/336G4TowkVcclw_0_5000: map_av=0.01 map_obj=0.01 map_av_obj=0.19
+2023-12-05 09:29:27,763 root INFO obj is used.
+2023-12-05 09:29:27,794 root INFO sam is used.
+2023-12-05 09:29:43,934 root INFO 213/336g5FVJveyyVM_0_5000: map_av=0.05 map_obj=0.95 map_av_obj=0.94
+2023-12-05 09:29:45,182 root INFO obj is used.
+2023-12-05 09:29:45,213 root INFO sam is used.
+2023-12-05 09:30:01,285 root INFO 214/336gE_SWlHEVHY_0_5000: map_av=0.00 map_obj=0.69 map_av_obj=0.05
+2023-12-05 09:30:01,732 root INFO obj is used.
+2023-12-05 09:30:01,757 root INFO sam is used.
+2023-12-05 09:30:17,835 root INFO 215/336GkaPT8CFVgg_5000_10000: map_av=0.00 map_obj=0.86 map_av_obj=0.86
+2023-12-05 09:30:18,974 root INFO obj is used.
+2023-12-05 09:30:19,005 root INFO sam is used.
+2023-12-05 09:30:35,202 root INFO 216/336gkEmGO8QXz4_0_5000: map_av=0.00 map_obj=0.01 map_av_obj=0.01
+2023-12-05 09:30:35,662 root INFO obj is used.
+2023-12-05 09:30:35,686 root INFO sam is used.
+2023-12-05 09:30:51,820 root INFO 217/336GLjai294FcU_0_5000: map_av=0.00 map_obj=0.33 map_av_obj=0.33
+2023-12-05 09:30:52,149 root INFO obj is used.
+2023-12-05 09:30:52,171 root INFO sam is used.
+2023-12-05 09:31:08,302 root INFO 218/336GPl4twCSrLQ_5000_10000: map_av=0.00 map_obj=0.00 map_av_obj=0.00
+2023-12-05 09:31:08,641 root INFO obj is used.
+2023-12-05 09:31:08,664 root INFO sam is used.
+2023-12-05 09:31:24,687 root INFO 219/336gRwsXwSRDH0_3000_8000: map_av=0.07 map_obj=0.73 map_av_obj=0.73
+2023-12-05 09:31:25,022 root INFO obj is used.
+2023-12-05 09:31:25,043 root INFO sam is used.
+2023-12-05 09:31:41,147 root INFO 220/336GtPp2HqGRO4_0_5000: map_av=0.00 map_obj=0.36 map_av_obj=0.36
+2023-12-05 09:31:41,615 root INFO obj is used.
+2023-12-05 09:31:41,640 root INFO sam is used.
+2023-12-05 09:31:57,697 root INFO 221/336h_UlkuI-zZ4_0_5000: map_av=0.00 map_obj=0.00 map_av_obj=0.00
+2023-12-05 09:31:58,133 root INFO obj is used.
+2023-12-05 09:31:58,156 root INFO sam is used.
+2023-12-05 09:32:14,275 root INFO 222/336H28VuSjNB-g_5000_10000: map_av=0.00 map_obj=0.35 map_av_obj=0.55
+2023-12-05 09:32:15,473 root INFO obj is used.
+2023-12-05 09:32:15,505 root INFO sam is used.
+2023-12-05 09:32:31,762 root INFO 223/336h54ILYy07SY_2000_7000: map_av=0.00 map_obj=0.11 map_av_obj=0.11
+2023-12-05 09:32:32,083 root INFO obj is used.
+2023-12-05 09:32:32,105 root INFO sam is used.
+2023-12-05 09:32:48,239 root INFO 224/336H7mPu5mt4zM_0_5000: map_av=0.00 map_obj=0.74 map_av_obj=0.74
+2023-12-05 09:32:48,684 root INFO obj is used.
+2023-12-05 09:32:48,708 root INFO sam is used.
+2023-12-05 09:33:04,895 root INFO 225/336HdOeLKqorQU_0_5000: map_av=0.00 map_obj=0.61 map_av_obj=0.01
+2023-12-05 09:33:05,366 root INFO obj is used.
+2023-12-05 09:33:05,390 root INFO sam is used.
+2023-12-05 09:33:21,788 root INFO 226/336hQVtv8jxBCk_2000_7000: map_av=0.00 map_obj=0.49 map_av_obj=0.49
+2023-12-05 09:33:22,235 root INFO obj is used.
+2023-12-05 09:33:22,259 root INFO sam is used.
+2023-12-05 09:33:38,426 root INFO 227/336Hw1M3Brm9HY_0_5000: map_av=0.00 map_obj=0.00 map_av_obj=0.00
+2023-12-05 09:33:38,766 root INFO obj is used.
+2023-12-05 09:33:38,788 root INFO sam is used.
+2023-12-05 09:33:54,796 root INFO 228/336HWveffcspIc_0_5000: map_av=0.00 map_obj=0.64 map_av_obj=0.64
+2023-12-05 09:33:55,124 root INFO obj is used.
+2023-12-05 09:33:55,147 root INFO sam is used.
+2023-12-05 09:34:11,302 root INFO 229/336i-GkK_-z-FA_5000_10000: map_av=0.01 map_obj=0.04 map_av_obj=0.03
+2023-12-05 09:34:11,655 root INFO obj is used.
+2023-12-05 09:34:11,677 root INFO sam is used.
+2023-12-05 09:34:27,803 root INFO 230/336I-OV9_fu7Ao_3000_8000: map_av=0.00 map_obj=0.01 map_av_obj=0.69
+2023-12-05 09:34:28,680 root INFO obj is used.
+2023-12-05 09:34:28,707 root INFO sam is used.
+2023-12-05 09:34:44,873 root INFO 231/336Ia4FSdXJhc8_0_5000: map_av=0.00 map_obj=0.23 map_av_obj=0.23
+2023-12-05 09:34:46,063 root INFO obj is used.
+2023-12-05 09:34:46,094 root INFO sam is used.
+2023-12-05 09:35:02,391 root INFO 232/336IldruEHS3m4_0_5000: map_av=0.48 map_obj=0.01 map_av_obj=0.01
+2023-12-05 09:35:03,624 root INFO obj is used.
+2023-12-05 09:35:03,653 root INFO sam is used.
+2023-12-05 09:35:19,982 root INFO 233/336IqkvnX1H9BY_0_5000: map_av=0.00 map_obj=0.03 map_av_obj=0.03
+2023-12-05 09:35:20,453 root INFO obj is used.
+2023-12-05 09:35:20,477 root INFO sam is used.
+2023-12-05 09:35:36,566 root INFO 234/336J0Z2aNJs8Xw_0_5000: map_av=0.00 map_obj=0.32 map_av_obj=0.32
+2023-12-05 09:35:37,027 root INFO obj is used.
+2023-12-05 09:35:37,051 root INFO sam is used.
+2023-12-05 09:35:53,296 root INFO 235/336J5H0PpwQYBg_5000_10000: map_av=0.00 map_obj=0.87 map_av_obj=0.87
+2023-12-05 09:35:53,770 root INFO obj is used.
+2023-12-05 09:35:53,793 root INFO sam is used.
+2023-12-05 09:36:09,859 root INFO 236/336J72P6m8SWUA_0_5000: map_av=0.00 map_obj=0.33 map_av_obj=0.00
+2023-12-05 09:36:11,047 root INFO obj is used.
+2023-12-05 09:36:11,077 root INFO sam is used.
+2023-12-05 09:36:27,305 root INFO 237/336jCrQuzFfdGM_2000_7000: map_av=0.00 map_obj=0.80 map_av_obj=0.80
+2023-12-05 09:36:27,633 root INFO obj is used.
+2023-12-05 09:36:27,656 root INFO sam is used.
+2023-12-05 09:36:43,702 root INFO 238/336jem5sXY9WYo_5000_10000: map_av=0.00 map_obj=0.35 map_av_obj=0.27
+2023-12-05 09:36:44,014 root INFO obj is used.
+2023-12-05 09:36:44,036 root INFO sam is used.
+2023-12-05 09:37:00,095 root INFO 239/336JiFnNTsePzU_0_5000: map_av=0.00 map_obj=0.57 map_av_obj=0.57
+2023-12-05 09:37:00,541 root INFO obj is used.
+2023-12-05 09:37:00,565 root INFO sam is used.
+2023-12-05 09:37:16,663 root INFO 240/336JlRiZiq3_DQ_0_5000: map_av=0.01 map_obj=0.35 map_av_obj=0.35
+2023-12-05 09:37:17,871 root INFO obj is used.
+2023-12-05 09:37:17,902 root INFO sam is used.
+2023-12-05 09:37:34,102 root INFO 241/336JnGEcArat0M_0_5000: map_av=0.00 map_obj=0.00 map_av_obj=0.00
+2023-12-05 09:37:35,262 root INFO obj is used.
+2023-12-05 09:37:35,293 root INFO sam is used.
+2023-12-05 09:37:51,432 root INFO 242/336jNj_kRfLwzE_2000_7000: map_av=0.00 map_obj=0.00 map_av_obj=0.00
+2023-12-05 09:37:51,874 root INFO obj is used.
+2023-12-05 09:37:51,898 root INFO sam is used.
+2023-12-05 09:38:07,996 root INFO 243/336JpqxMvQVUFk_1000_6000: map_av=0.77 map_obj=0.76 map_av_obj=0.77
+2023-12-05 09:38:08,406 root INFO obj is used.
+2023-12-05 09:38:08,430 root INFO sam is used.
+2023-12-05 09:38:24,611 root INFO 244/336JW644W5bw0M_2000_7000: map_av=0.00 map_obj=0.92 map_av_obj=0.92
+2023-12-05 09:38:25,885 root INFO obj is used.
+2023-12-05 09:38:25,916 root INFO sam is used.
+2023-12-05 09:38:42,042 root INFO 245/336jyAVwXhbR5g_0_5000: map_av=0.00 map_obj=0.81 map_av_obj=0.00
+2023-12-05 09:38:43,283 root INFO obj is used.
+2023-12-05 09:38:43,313 root INFO sam is used.
+2023-12-05 09:38:59,509 root INFO 246/336K-iyvKf20a0_1000_6000: map_av=0.00 map_obj=0.17 map_av_obj=0.03
+2023-12-05 09:38:59,971 root INFO obj is used.
+2023-12-05 09:38:59,995 root INFO sam is used.
+2023-12-05 09:39:16,091 root INFO 247/336k1aqrzHl3qI_3000_8000: map_av=0.91 map_obj=0.92 map_av_obj=0.92
+2023-12-05 09:39:16,590 root INFO obj is used.
+2023-12-05 09:39:16,614 root INFO sam is used.
+2023-12-05 09:39:32,714 root INFO 248/336KLICvY58raU_0_5000: map_av=0.00 map_obj=0.01 map_av_obj=0.00
+2023-12-05 09:39:33,940 root INFO obj is used.
+2023-12-05 09:39:33,971 root INFO sam is used.
+2023-12-05 09:39:50,219 root INFO 249/336KQRnsZqwOKo_0_5000: map_av=0.00 map_obj=0.94 map_av_obj=0.94
+2023-12-05 09:39:50,689 root INFO obj is used.
+2023-12-05 09:39:50,715 root INFO sam is used.
+2023-12-05 09:40:06,835 root INFO 250/336L6UfR2Wlnuw_5000_10000: map_av=0.00 map_obj=0.06 map_av_obj=0.79
+2023-12-05 09:40:07,193 root INFO obj is used.
+2023-12-05 09:40:07,217 root INFO sam is used.
+2023-12-05 09:40:23,421 root INFO 251/336LcwakmQwG40_5000_10000: map_av=0.00 map_obj=0.00 map_av_obj=0.00
+2023-12-05 09:40:23,863 root INFO obj is used.
+2023-12-05 09:40:23,886 root INFO sam is used.
+2023-12-05 09:40:40,747 root INFO 252/336LlFCu8KEMQs_0_5000: map_av=0.00 map_obj=0.09 map_av_obj=0.01
+2023-12-05 09:40:41,930 root INFO obj is used.
+2023-12-05 09:40:41,961 root INFO sam is used.
+2023-12-05 09:40:58,334 root INFO 253/336Lpus_fxffrE_0_5000: map_av=0.00 map_obj=0.00 map_av_obj=0.04
+2023-12-05 09:40:58,770 root INFO obj is used.
+2023-12-05 09:40:58,793 root INFO sam is used.
+2023-12-05 09:41:15,076 root INFO 254/336LPvJFjsxMj8_5000_10000: map_av=0.03 map_obj=0.69 map_av_obj=0.79
+2023-12-05 09:41:15,543 root INFO obj is used.
+2023-12-05 09:41:15,566 root INFO sam is used.
+2023-12-05 09:41:31,745 root INFO 255/336lu8RDB26uPY_0_5000: map_av=0.00 map_obj=0.58 map_av_obj=0.57
+2023-12-05 09:41:32,105 root INFO obj is used.
+2023-12-05 09:41:32,127 root INFO sam is used.
+2023-12-05 09:41:48,224 root INFO 256/336Lw057CKQDCw_0_5000: map_av=0.01 map_obj=0.00 map_av_obj=0.00
+2023-12-05 09:41:49,415 root INFO obj is used.
+2023-12-05 09:41:49,446 root INFO sam is used.
+2023-12-05 09:42:05,891 root INFO 257/336MBlF43Ju_DU_1000_6000: map_av=0.00 map_obj=0.00 map_av_obj=0.03
+2023-12-05 09:42:06,392 root INFO obj is used.
+2023-12-05 09:42:06,415 root INFO sam is used.
+2023-12-05 09:42:22,515 root INFO 258/336mINZOofPPdA_0_5000: map_av=0.01 map_obj=0.31 map_av_obj=0.31
+2023-12-05 09:42:23,712 root INFO obj is used.
+2023-12-05 09:42:23,743 root INFO sam is used.
+2023-12-05 09:42:39,941 root INFO 259/336mKqfcR4mXMI_0_5000: map_av=0.00 map_obj=0.08 map_av_obj=0.07
+2023-12-05 09:42:41,141 root INFO obj is used.
+2023-12-05 09:42:41,172 root INFO sam is used.
+2023-12-05 09:42:57,345 root INFO 260/336ML66Le-Zf78_4000_9000: map_av=0.61 map_obj=0.30 map_av_obj=0.92
+2023-12-05 09:42:57,664 root INFO obj is used.
+2023-12-05 09:42:57,687 root INFO sam is used.
+2023-12-05 09:43:13,736 root INFO 261/336MlxORICa7nQ_0_5000: map_av=0.00 map_obj=0.23 map_av_obj=0.23
+2023-12-05 09:43:14,065 root INFO obj is used.
+2023-12-05 09:43:14,087 root INFO sam is used.
+2023-12-05 09:43:30,133 root INFO 262/336NEg_LkITz_Y_3000_8000: map_av=0.00 map_obj=0.81 map_av_obj=0.81
+2023-12-05 09:43:31,330 root INFO obj is used.
+2023-12-05 09:43:31,360 root INFO sam is used.
+2023-12-05 09:43:47,604 root INFO 263/336NG-gL__w2aE_5000_10000: map_av=0.00 map_obj=0.24 map_av_obj=0.24
+2023-12-05 09:43:48,038 root INFO obj is used.
+2023-12-05 09:43:48,062 root INFO sam is used.
+2023-12-05 09:44:04,244 root INFO 264/336NQWLCH9gQ7Y_5000_10000: map_av=0.01 map_obj=0.46 map_av_obj=0.46
+2023-12-05 09:44:04,720 root INFO obj is used.
+2023-12-05 09:44:04,744 root INFO sam is used.
+2023-12-05 09:44:20,800 root INFO 265/336NWjG0HZx1rE_0_5000: map_av=0.00 map_obj=0.00 map_av_obj=0.00
+2023-12-05 09:44:21,255 root INFO obj is used.
+2023-12-05 09:44:21,278 root INFO sam is used.
+2023-12-05 09:44:37,519 root INFO 266/336NWrNeK5C2lY_0_5000: map_av=0.00 map_obj=0.82 map_av_obj=0.00
+2023-12-05 09:44:38,720 root INFO obj is used.
+2023-12-05 09:44:38,751 root INFO sam is used.
+2023-12-05 09:44:54,982 root INFO 267/336O3FBuQrOGQY_0_5000: map_av=0.00 map_obj=0.03 map_av_obj=0.91
+2023-12-05 09:44:56,164 root INFO obj is used.
+2023-12-05 09:44:56,194 root INFO sam is used.
+2023-12-05 09:45:12,342 root INFO 268/336O8cw0ihih78_0_5000: map_av=0.00 map_obj=0.08 map_av_obj=0.06
+2023-12-05 09:45:12,787 root INFO obj is used.
+2023-12-05 09:45:12,812 root INFO sam is used.
+2023-12-05 09:45:28,920 root INFO 269/336oagnc7aNmTI_0_5000: map_av=0.00 map_obj=0.53 map_av_obj=0.53
+2023-12-05 09:45:29,382 root INFO obj is used.
+2023-12-05 09:45:29,407 root INFO sam is used.
+2023-12-05 09:45:45,498 root INFO 270/336OS1SX9SGGyc_4000_9000: map_av=0.00 map_obj=0.93 map_av_obj=0.18
+2023-12-05 09:45:45,926 root INFO obj is used.
+2023-12-05 09:45:45,950 root INFO sam is used.
+2023-12-05 09:46:02,142 root INFO 271/336ouZk7vYsiJc_0_5000: map_av=0.00 map_obj=0.00 map_av_obj=0.01
+2023-12-05 09:46:02,615 root INFO obj is used.
+2023-12-05 09:46:02,638 root INFO sam is used.
+2023-12-05 09:46:18,659 root INFO 272/336ozYXBwfh4vg_0_5000: map_av=0.00 map_obj=0.93 map_av_obj=0.93
+2023-12-05 09:46:19,919 root INFO obj is used.
+2023-12-05 09:46:19,950 root INFO sam is used.
+2023-12-05 09:46:36,010 root INFO 273/336P2GpecJsMqk_2000_7000: map_av=0.00 map_obj=0.74 map_av_obj=0.74
+2023-12-05 09:46:36,439 root INFO obj is used.
+2023-12-05 09:46:36,463 root INFO sam is used.
+2023-12-05 09:46:52,610 root INFO 274/336p39Qyshw2l8_0_5000: map_av=0.81 map_obj=0.08 map_av_obj=0.08
+2023-12-05 09:46:53,767 root INFO obj is used.
+2023-12-05 09:46:53,798 root INFO sam is used.
+2023-12-05 09:47:10,069 root INFO 275/336P3leS31LAvk_0_5000: map_av=0.01 map_obj=0.04 map_av_obj=0.05
+2023-12-05 09:47:11,262 root INFO obj is used.
+2023-12-05 09:47:11,293 root INFO sam is used.
+2023-12-05 09:47:27,368 root INFO 276/336P4lc4g_RCMU_5000_10000: map_av=0.00 map_obj=0.00 map_av_obj=0.00
+2023-12-05 09:47:28,548 root INFO obj is used.
+2023-12-05 09:47:28,577 root INFO sam is used.
+2023-12-05 09:47:44,689 root INFO 277/336P4prSPyPg1I_0_5000: map_av=0.00 map_obj=0.76 map_av_obj=0.76
+2023-12-05 09:47:45,323 root INFO obj is used.
+2023-12-05 09:47:45,349 root INFO sam is used.
+2023-12-05 09:48:01,548 root INFO 278/336PacYskI7Ewc_0_5000: map_av=0.00 map_obj=0.82 map_av_obj=0.82
+2023-12-05 09:48:01,866 root INFO obj is used.
+2023-12-05 09:48:01,889 root INFO sam is used.
+2023-12-05 09:48:18,020 root INFO 279/336PDY2OAjZgio_0_5000: map_av=0.00 map_obj=0.93 map_av_obj=0.93
+2023-12-05 09:48:18,368 root INFO obj is used.
+2023-12-05 09:48:18,390 root INFO sam is used.
+2023-12-05 09:48:34,470 root INFO 280/336pNLk_ImdGPo_0_5000: map_av=0.09 map_obj=0.00 map_av_obj=0.09
+2023-12-05 09:48:35,629 root INFO obj is used.
+2023-12-05 09:48:35,660 root INFO sam is used.
+2023-12-05 09:48:51,851 root INFO 281/336pV149D1LRDE_0_5000: map_av=0.00 map_obj=0.00 map_av_obj=0.00
+2023-12-05 09:48:52,977 root INFO obj is used.
+2023-12-05 09:48:53,008 root INFO sam is used.
+2023-12-05 09:49:09,264 root INFO 282/336pzPdLmD_Zr8_0_5000: map_av=0.40 map_obj=0.40 map_av_obj=0.40
+2023-12-05 09:49:09,703 root INFO obj is used.
+2023-12-05 09:49:09,727 root INFO sam is used.
+2023-12-05 09:49:25,858 root INFO 283/336QejVyYvjrrs_5000_10000: map_av=0.00 map_obj=0.74 map_av_obj=0.71
+2023-12-05 09:49:26,216 root INFO obj is used.
+2023-12-05 09:49:26,238 root INFO sam is used.
+2023-12-05 09:49:42,308 root INFO 284/336QNnaxGvpH5U_0_5000: map_av=0.01 map_obj=0.45 map_av_obj=0.45
+2023-12-05 09:49:42,634 root INFO obj is used.
+2023-12-05 09:49:42,658 root INFO sam is used.
+2023-12-05 09:49:58,665 root INFO 285/336rAgmXW8uFCY_5000_10000: map_av=0.00 map_obj=0.38 map_av_obj=0.34
+2023-12-05 09:49:59,126 root INFO obj is used.
+2023-12-05 09:49:59,149 root INFO sam is used.
+2023-12-05 09:50:15,262 root INFO 286/336RF_tqCThxaM_0_5000: map_av=0.00 map_obj=0.94 map_av_obj=0.94
+2023-12-05 09:50:15,736 root INFO obj is used.
+2023-12-05 09:50:15,760 root INFO sam is used.
+2023-12-05 09:50:31,777 root INFO 287/336RFKh24qKh60_4000_9000: map_av=0.05 map_obj=0.35 map_av_obj=0.01
+2023-12-05 09:50:32,266 root INFO obj is used.
+2023-12-05 09:50:32,289 root INFO sam is used.
+2023-12-05 09:50:48,264 root INFO 288/336rgeNP5nGQek_0_5000: map_av=0.00 map_obj=0.72 map_av_obj=0.72
+2023-12-05 09:50:48,735 root INFO obj is used.
+2023-12-05 09:50:48,758 root INFO sam is used.
+2023-12-05 09:51:04,870 root INFO 289/336rnFu9UrmEDw_0_5000: map_av=0.00 map_obj=0.00 map_av_obj=0.00
+2023-12-05 09:51:05,215 root INFO obj is used.
+2023-12-05 09:51:05,238 root INFO sam is used.
+2023-12-05 09:51:21,295 root INFO 290/336RVGj7iID9VA_5000_10000: map_av=0.00 map_obj=0.01 map_av_obj=0.00
+2023-12-05 09:51:22,579 root INFO obj is used.
+2023-12-05 09:51:22,610 root INFO sam is used.
+2023-12-05 09:51:38,888 root INFO 291/336rVy0jvU9M38_0_5000: map_av=0.00 map_obj=0.31 map_av_obj=0.30
+2023-12-05 09:51:39,395 root INFO obj is used.
+2023-12-05 09:51:39,418 root INFO sam is used.
+2023-12-05 09:51:55,541 root INFO 292/336S6vU-m0kO14_5000_10000: map_av=0.00 map_obj=0.23 map_av_obj=0.23
+2023-12-05 09:51:56,023 root INFO obj is used.
+2023-12-05 09:51:56,046 root INFO sam is used.
+2023-12-05 09:52:12,237 root INFO 293/336sN4xr_p9SiA_0_5000: map_av=0.00 map_obj=0.00 map_av_obj=0.60
+2023-12-05 09:52:13,424 root INFO obj is used.
+2023-12-05 09:52:13,454 root INFO sam is used.
+2023-12-05 09:52:29,645 root INFO 294/336sp69Ndnhdbk_5000_10000: map_av=0.00 map_obj=0.21 map_av_obj=0.00
+2023-12-05 09:52:29,960 root INFO obj is used.
+2023-12-05 09:52:29,983 root INFO sam is used.
+2023-12-05 09:52:46,207 root INFO 295/336St_0xXOYuw4_0_5000: map_av=0.00 map_obj=0.02 map_av_obj=0.00
+2023-12-05 09:52:47,402 root INFO obj is used.
+2023-12-05 09:52:47,432 root INFO sam is used.
+2023-12-05 09:53:03,754 root INFO 296/336sTMXErNoNHM_0_5000: map_av=0.00 map_obj=0.50 map_av_obj=0.60
+2023-12-05 09:53:04,895 root INFO obj is used.
+2023-12-05 09:53:04,927 root INFO sam is used.
+2023-12-05 09:53:21,044 root INFO 297/336SwC-n2ovgPQ_0_5000: map_av=0.00 map_obj=0.04 map_av_obj=0.04
+2023-12-05 09:53:22,229 root INFO obj is used.
+2023-12-05 09:53:22,257 root INFO sam is used.
+2023-12-05 09:53:38,580 root INFO 298/336sxqKIm4LlF0_0_5000: map_av=0.00 map_obj=0.73 map_av_obj=0.73
+2023-12-05 09:53:39,022 root INFO obj is used.
+2023-12-05 09:53:39,046 root INFO sam is used.
+2023-12-05 09:53:55,165 root INFO 299/336T54sMBwaZUg_0_5000: map_av=0.11 map_obj=0.38 map_av_obj=0.11
+2023-12-05 09:53:56,420 root INFO obj is used.
+2023-12-05 09:53:56,449 root INFO sam is used.
+2023-12-05 09:54:12,628 root INFO 300/336TniApw9LVzM_5000_10000: map_av=0.01 map_obj=0.00 map_av_obj=0.00
+2023-12-05 09:54:13,729 root INFO obj is used.
+2023-12-05 09:54:13,760 root INFO sam is used.
+2023-12-05 09:54:29,931 root INFO 301/336Tr0tZ1_Vn8A_0_5000: map_av=0.00 map_obj=0.02 map_av_obj=0.01
+2023-12-05 09:54:31,087 root INFO obj is used.
+2023-12-05 09:54:31,118 root INFO sam is used.
+2023-12-05 09:54:47,324 root INFO 302/336UTyBh-cH4Z4_1000_6000: map_av=0.00 map_obj=0.31 map_av_obj=0.31
+2023-12-05 09:54:48,447 root INFO obj is used.
+2023-12-05 09:54:48,478 root INFO sam is used.
+2023-12-05 09:55:04,736 root INFO 303/336uUdjYsYybi4_0_5000: map_av=0.00 map_obj=0.00 map_av_obj=0.00
+2023-12-05 09:55:05,139 root INFO obj is used.
+2023-12-05 09:55:05,162 root INFO sam is used.
+2023-12-05 09:55:21,288 root INFO 304/336uWIWnL414Lo_0_5000: map_av=0.00 map_obj=0.85 map_av_obj=0.85
+2023-12-05 09:55:21,618 root INFO obj is used.
+2023-12-05 09:55:21,641 root INFO sam is used.
+2023-12-05 09:55:37,791 root INFO 305/336VemZ-ZKmp5c_2000_7000: map_av=0.00 map_obj=0.40 map_av_obj=0.40
+2023-12-05 09:55:39,086 root INFO obj is used.
+2023-12-05 09:55:39,117 root INFO sam is used.
+2023-12-05 09:55:55,372 root INFO 306/336VG-jZq_A1Hc_0_5000: map_av=0.00 map_obj=0.72 map_av_obj=0.72
+2023-12-05 09:55:55,716 root INFO obj is used.
+2023-12-05 09:55:55,739 root INFO sam is used.
+2023-12-05 09:56:11,961 root INFO 307/336VhJzNQ8K5uE_2000_7000: map_av=0.00 map_obj=0.51 map_av_obj=0.15
+2023-12-05 09:56:12,445 root INFO obj is used.
+2023-12-05 09:56:12,468 root INFO sam is used.
+2023-12-05 09:56:28,641 root INFO 308/336w4aoANtQOt4_2000_7000: map_av=0.01 map_obj=0.37 map_av_obj=0.00
+2023-12-05 09:56:29,102 root INFO obj is used.
+2023-12-05 09:56:29,126 root INFO sam is used.
+2023-12-05 09:56:45,205 root INFO 309/336W8D-cSevEsc_0_5000: map_av=0.01 map_obj=0.06 map_av_obj=0.04
+2023-12-05 09:56:46,383 root INFO obj is used.
+2023-12-05 09:56:46,412 root INFO sam is used.
+2023-12-05 09:57:02,643 root INFO 310/336Warh2WR5ZjY_0_5000: map_av=0.00 map_obj=0.01 map_av_obj=0.00
+2023-12-05 09:57:03,103 root INFO obj is used.
+2023-12-05 09:57:03,127 root INFO sam is used.
+2023-12-05 09:57:19,332 root INFO 311/336wBEw8gy5wu0_1000_6000: map_av=0.46 map_obj=0.38 map_av_obj=0.38
+2023-12-05 09:57:20,520 root INFO obj is used.
+2023-12-05 09:57:20,550 root INFO sam is used.
+2023-12-05 09:57:36,746 root INFO 312/336WHwZkp5wtNs_2000_7000: map_av=0.01 map_obj=0.51 map_av_obj=0.38
+2023-12-05 09:57:37,083 root INFO obj is used.
+2023-12-05 09:57:37,105 root INFO sam is used.
+2023-12-05 09:57:53,223 root INFO 313/336WNG5_IbQOLI_0_5000: map_av=0.01 map_obj=0.89 map_av_obj=0.89
+2023-12-05 09:57:53,695 root INFO obj is used.
+2023-12-05 09:57:53,717 root INFO sam is used.
+2023-12-05 09:58:09,784 root INFO 314/336WSuqeuN_vvM_0_5000: map_av=0.01 map_obj=0.22 map_av_obj=0.01
+2023-12-05 09:58:11,002 root INFO obj is used.
+2023-12-05 09:58:11,034 root INFO sam is used.
+2023-12-05 09:58:27,314 root INFO 315/336WTlLxj30hgs_2000_7000: map_av=0.00 map_obj=0.35 map_av_obj=0.54
+2023-12-05 09:58:27,782 root INFO obj is used.
+2023-12-05 09:58:27,807 root INFO sam is used.
+2023-12-05 09:58:43,982 root INFO 316/336X-Nqd-SpC9I_5000_10000: map_av=0.00 map_obj=0.22 map_av_obj=0.22
+2023-12-05 09:58:44,441 root INFO obj is used.
+2023-12-05 09:58:44,465 root INFO sam is used.
+2023-12-05 09:59:00,739 root INFO 317/336XEokIQCZ_Vg_0_5000: map_av=0.00 map_obj=0.28 map_av_obj=0.00
+2023-12-05 09:59:01,927 root INFO obj is used.
+2023-12-05 09:59:01,957 root INFO sam is used.
+2023-12-05 09:59:18,246 root INFO 318/336XI7KohOCtx8_5000_10000: map_av=0.00 map_obj=0.00 map_av_obj=0.00
+2023-12-05 09:59:18,544 root INFO obj is used.
+2023-12-05 09:59:18,568 root INFO sam is used.
+2023-12-05 09:59:34,647 root INFO 319/336xTqBYLL5V4A_0_5000: map_av=0.00 map_obj=0.01 map_av_obj=0.00
+2023-12-05 09:59:35,851 root INFO obj is used.
+2023-12-05 09:59:35,881 root INFO sam is used.
+2023-12-05 09:59:52,155 root INFO 320/336xW5JYNWzzwM_0_5000: map_av=0.04 map_obj=0.52 map_av_obj=0.07
+2023-12-05 09:59:52,587 root INFO obj is used.
+2023-12-05 09:59:52,611 root INFO sam is used.
+2023-12-05 10:00:08,723 root INFO 321/336y_y4PWN259U_0_5000: map_av=0.00 map_obj=0.03 map_av_obj=0.06
+2023-12-05 10:00:09,089 root INFO obj is used.
+2023-12-05 10:00:09,111 root INFO sam is used.
+2023-12-05 10:00:25,292 root INFO 322/336Y4O1o4qOOmg_0_5000: map_av=0.00 map_obj=0.02 map_av_obj=0.00
+2023-12-05 10:00:26,487 root INFO obj is used.
+2023-12-05 10:00:26,518 root INFO sam is used.
+2023-12-05 10:00:42,692 root INFO 323/336yBr79vCXOtQ_0_5000: map_av=0.00 map_obj=0.00 map_av_obj=0.43
+2023-12-05 10:00:43,158 root INFO obj is used.
+2023-12-05 10:00:43,183 root INFO sam is used.
+2023-12-05 10:00:59,421 root INFO 324/336YiGwPyTQ5ZI_4000_9000: map_av=0.19 map_obj=0.15 map_av_obj=0.15
+2023-12-05 10:01:00,586 root INFO obj is used.
+2023-12-05 10:01:00,618 root INFO sam is used.
+2023-12-05 10:01:17,142 root INFO 325/336yj6lBq3liio_0_5000: map_av=0.00 map_obj=0.85 map_av_obj=0.85
+2023-12-05 10:01:17,468 root INFO obj is used.
+2023-12-05 10:01:17,491 root INFO sam is used.
+2023-12-05 10:01:33,813 root INFO 326/336YlxKghgW170_0_5000: map_av=0.00 map_obj=0.71 map_av_obj=0.78
+2023-12-05 10:01:34,275 root INFO obj is used.
+2023-12-05 10:01:34,299 root INFO sam is used.
+2023-12-05 10:01:51,119 root INFO 327/336YNmnwxw4yxo_0_5000: map_av=0.00 map_obj=0.82 map_av_obj=0.82
+2023-12-05 10:01:51,462 root INFO obj is used.
+2023-12-05 10:01:51,486 root INFO sam is used.
+2023-12-05 10:02:07,658 root INFO 328/336YTvA_xvtgzo_1000_6000: map_av=0.00 map_obj=0.53 map_av_obj=0.00
+2023-12-05 10:02:08,003 root INFO obj is used.
+2023-12-05 10:02:08,025 root INFO sam is used.
+2023-12-05 10:02:24,211 root INFO 329/336z_EV7XqWmew_5000_10000: map_av=0.00 map_obj=0.62 map_av_obj=0.00
+2023-12-05 10:02:24,720 root INFO obj is used.
+2023-12-05 10:02:24,743 root INFO sam is used.
+2023-12-05 10:02:41,015 root INFO 330/336Z1s65WhSgEE_1000_6000: map_av=0.00 map_obj=0.97 map_av_obj=0.97
+2023-12-05 10:02:41,521 root INFO obj is used.
+2023-12-05 10:02:41,543 root INFO sam is used.
+2023-12-05 10:02:57,821 root INFO 331/336Z81jyZ_ERks_0_5000: map_av=0.00 map_obj=0.00 map_av_obj=0.00
+2023-12-05 10:02:58,158 root INFO obj is used.
+2023-12-05 10:02:58,181 root INFO sam is used.
+2023-12-05 10:03:14,356 root INFO 332/336z9Xg9sN-DgU_5000_10000: map_av=0.88 map_obj=0.88 map_av_obj=0.88
+2023-12-05 10:03:15,602 root INFO obj is used.
+2023-12-05 10:03:15,633 root INFO sam is used.
+2023-12-05 10:03:31,910 root INFO 333/336ZdeDpnMGZ3Y_4000_9000: map_av=0.00 map_obj=0.89 map_av_obj=0.90
+2023-12-05 10:03:33,065 root INFO obj is used.
+2023-12-05 10:03:33,096 root INFO sam is used.
+2023-12-05 10:03:49,390 root INFO 334/336Zjf0zc6tIhI_0_5000: map_av=0.00 map_obj=0.66 map_av_obj=0.66
+2023-12-05 10:03:50,575 root INFO obj is used.
+2023-12-05 10:03:50,605 root INFO sam is used.
+2023-12-05 10:04:06,857 root INFO 335/336zq5mreEwfrI_0_5000: map_av=0.54 map_obj=0.64 map_av_obj=0.63
+2023-12-05 10:04:07,249 root INFO obj is used.
+2023-12-05 10:04:07,274 root INFO sam is used.
+2023-12-05 10:04:23,395 root INFO 336/336ZT1s9fDbfB0_2000_7000: map_av=0.00 map_obj=0.00 map_av_obj=0.00
+2023-12-05 10:04:23,397 root INFO AV_Obj: AP50(cIoU)=0.5744047619047619, Avg-cIoU=0.34259673152553677, AUC=0.3492559523809525
+2023-12-05 10:04:23,398 root INFO AV: AP50(cIoU)=0.125, Avg-cIoU=0.06497976457209849, AUC=0.08407738095238095
+2023-12-05 10:04:23,399 root INFO Obj: AP50(cIoU)=0.6369047619047619, Avg-cIoU=0.3608493958614597, AUC=0.3651785714285715
+2023-12-05 10:04:23,399 root INFO 178

@@ -1,0 +1,130 @@
+2023-11-27 09:23:15,473 __main__ INFO ==> Config: {'VGGISH_BATCH_SIZE': 8, 'LAMBDA_1': 50, 'TRAIN': {'PRETRAINED_VGGISH_MODEL_PATH': 'C:\\Users\\13428\\PycharmProjects\\ez-vsl\\models\\vggish\\vggish-10086976.pth', 'PRETRAINED_PCA_PARAMS_PATH': 'models/vggish_pca_params-970ea276.pth', 'FREEZE_AUDIO_EXTRACTOR': True}, 'DATA': {'AVS_CSV': 'C:/Users/13428/PycharmProjects/ez-vsl/AVS/metadata.csv', 'AVS_PKL': 'C:/Users/13428/PycharmProjects/ez-vsl/AVS/v1s_pkl/', 'AVS_DATA': 'C:/Users/13428/PycharmProjects/ez-vsl/AVS/v1s/', 'VGGSOUND_DATA': 'C:/Users/13428/PycharmProjects/ez-vsl/vggsound/', 'IMG_SIZE': [224, 224]}}
+2023-11-27 09:23:15,473 __main__ INFO ==> Arguments: Namespace(model_dir='./checkpoints', experiment_name='4_vgg_vgg_beta1_tau05', trainset='vggss', testset='vgg_val', out_dim=512, tau=0.03, epochs=20, batch_size=128, init_lr=0.0001, seed=12345, workers=8, gpu=0, world_size=1, rank=0, node='localhost', port=12345, dist_url='tcp://localhost:12345', multiprocessing_distributed=False, is_vggish=False)
+2023-11-27 09:23:15,473 __main__ INFO ==> Experiment: 4_vgg_vgg_beta1_tau05
+2023-11-27 09:23:15,473 __main__ INFO ==> Total params: 22.87M
+2023-11-27 09:23:15,889 __main__ INFO Loaded dataloader.
+2023-11-27 09:23:40,887 __main__ INFO cIoU (epoch 0): 0.23812567350522254 
+AUC (epoch 0): 0.2405
+best_cIoU: 0.0
+best_Auc: 0.0
+
+2023-11-27 09:24:42,091 __main__ INFO cIoU (epoch 1): 0.3290177230032533
+AUC (epoch 1): 0.33020000000000005
+best_cIoU: 0.0
+best_Auc: 0.0
+
+2023-11-27 09:24:42,303 __main__ INFO Model saved to ./checkpoints\4_vgg_vgg_beta1_tau05
+2023-11-27 09:25:25,543 __main__ INFO cIoU (epoch 2): 0.3450947538325798
+AUC (epoch 2): 0.3461
+best_cIoU: 0.3290177230032533
+best_Auc: 0.33020000000000005
+
+2023-11-27 09:25:25,767 __main__ INFO Model saved to ./checkpoints\4_vgg_vgg_beta1_tau05
+2023-11-27 09:26:09,071 __main__ INFO cIoU (epoch 3): 0.34066994827051494
+AUC (epoch 3): 0.34240000000000004
+best_cIoU: 0.3450947538325798
+best_Auc: 0.3461
+
+2023-11-27 09:26:09,361 __main__ INFO Model saved to ./checkpoints\4_vgg_vgg_beta1_tau05
+2023-11-27 09:26:52,612 __main__ INFO cIoU (epoch 4): 0.32363225362327214
+AUC (epoch 4): 0.3257
+best_cIoU: 0.3450947538325798
+best_Auc: 0.3461
+
+2023-11-27 09:26:52,833 __main__ INFO Model saved to ./checkpoints\4_vgg_vgg_beta1_tau05
+2023-11-27 09:27:36,825 __main__ INFO cIoU (epoch 5): 0.3439140565426245
+AUC (epoch 5): 0.34440000000000004
+best_cIoU: 0.3450947538325798
+best_Auc: 0.3461
+
+2023-11-27 09:27:37,046 __main__ INFO Model saved to ./checkpoints\4_vgg_vgg_beta1_tau05
+2023-11-27 09:28:20,336 __main__ INFO cIoU (epoch 6): 0.3637245243334902
+AUC (epoch 6): 0.36350000000000005
+best_cIoU: 0.3450947538325798
+best_Auc: 0.3461
+
+2023-11-27 09:28:20,560 __main__ INFO Model saved to ./checkpoints\4_vgg_vgg_beta1_tau05
+2023-11-27 09:29:04,724 __main__ INFO cIoU (epoch 7): 0.35125711159832024
+AUC (epoch 7): 0.3517
+best_cIoU: 0.3637245243334902
+best_Auc: 0.36350000000000005
+
+2023-11-27 09:29:04,944 __main__ INFO Model saved to ./checkpoints\4_vgg_vgg_beta1_tau05
+2023-11-27 09:29:48,605 __main__ INFO cIoU (epoch 8): 0.3491471657214073
+AUC (epoch 8): 0.35030000000000006
+best_cIoU: 0.3637245243334902
+best_Auc: 0.36350000000000005
+
+2023-11-27 09:29:48,829 __main__ INFO Model saved to ./checkpoints\4_vgg_vgg_beta1_tau05
+2023-11-27 09:30:32,230 __main__ INFO cIoU (epoch 9): 0.33605999576096257
+AUC (epoch 9): 0.336
+best_cIoU: 0.3637245243334902
+best_Auc: 0.36350000000000005
+
+2023-11-27 09:30:32,458 __main__ INFO Model saved to ./checkpoints\4_vgg_vgg_beta1_tau05
+2023-11-27 09:31:15,817 __main__ INFO cIoU (epoch 10): 0.3463000660766479
+AUC (epoch 10): 0.34700000000000003
+best_cIoU: 0.3637245243334902
+best_Auc: 0.36350000000000005
+
+2023-11-27 09:31:16,043 __main__ INFO Model saved to ./checkpoints\4_vgg_vgg_beta1_tau05
+2023-11-27 09:31:59,473 __main__ INFO cIoU (epoch 11): 0.34597663777615384
+AUC (epoch 11): 0.34690000000000004
+best_cIoU: 0.3637245243334902
+best_Auc: 0.36350000000000005
+
+2023-11-27 09:31:59,699 __main__ INFO Model saved to ./checkpoints\4_vgg_vgg_beta1_tau05
+2023-11-27 09:32:43,428 __main__ INFO cIoU (epoch 12): 0.31359722723066624
+AUC (epoch 12): 0.3145
+best_cIoU: 0.3637245243334902
+best_Auc: 0.36350000000000005
+
+2023-11-27 09:32:43,653 __main__ INFO Model saved to ./checkpoints\4_vgg_vgg_beta1_tau05
+2023-11-27 09:33:27,055 __main__ INFO cIoU (epoch 13): 0.29246097484725797
+AUC (epoch 13): 0.29500000000000004
+best_cIoU: 0.3637245243334902
+best_Auc: 0.36350000000000005
+
+2023-11-27 09:33:27,279 __main__ INFO Model saved to ./checkpoints\4_vgg_vgg_beta1_tau05
+2023-11-27 09:34:11,068 __main__ INFO cIoU (epoch 14): 0.31158757860088576
+AUC (epoch 14): 0.31320000000000003
+best_cIoU: 0.3637245243334902
+best_Auc: 0.36350000000000005
+
+2023-11-27 09:34:11,288 __main__ INFO Model saved to ./checkpoints\4_vgg_vgg_beta1_tau05
+2023-11-27 09:35:03,999 __main__ INFO cIoU (epoch 15): 0.31360931994550456
+AUC (epoch 15): 0.31520000000000004
+best_cIoU: 0.3637245243334902
+best_Auc: 0.36350000000000005
+
+2023-11-27 09:35:04,329 __main__ INFO Model saved to ./checkpoints\4_vgg_vgg_beta1_tau05
+2023-11-27 09:35:56,025 __main__ INFO cIoU (epoch 16): 0.30991762772928166
+AUC (epoch 16): 0.3115
+best_cIoU: 0.3637245243334902
+best_Auc: 0.36350000000000005
+
+2023-11-27 09:35:56,248 __main__ INFO Model saved to ./checkpoints\4_vgg_vgg_beta1_tau05
+2023-11-27 09:36:39,870 __main__ INFO cIoU (epoch 17): 0.29052211963830155
+AUC (epoch 17): 0.2918
+best_cIoU: 0.3637245243334902
+best_Auc: 0.36350000000000005
+
+2023-11-27 09:36:40,093 __main__ INFO Model saved to ./checkpoints\4_vgg_vgg_beta1_tau05
+2023-11-27 09:37:24,600 __main__ INFO cIoU (epoch 18): 0.3089371464879302
+AUC (epoch 18): 0.3105
+best_cIoU: 0.3637245243334902
+best_Auc: 0.36350000000000005
+
+2023-11-27 09:37:24,826 __main__ INFO Model saved to ./checkpoints\4_vgg_vgg_beta1_tau05
+2023-11-27 09:38:08,702 __main__ INFO cIoU (epoch 19): 0.2913703271447283
+AUC (epoch 19): 0.29290000000000005
+best_cIoU: 0.3637245243334902
+best_Auc: 0.36350000000000005
+
+2023-11-27 09:38:08,924 __main__ INFO Model saved to ./checkpoints\4_vgg_vgg_beta1_tau05
+2023-11-27 09:38:53,363 __main__ INFO cIoU (epoch 20): 0.2835348929165642
+AUC (epoch 20): 0.28470000000000006
+best_cIoU: 0.3637245243334902
+best_Auc: 0.36350000000000005
+
+2023-11-27 09:38:53,591 __main__ INFO Model saved to ./checkpoints\4_vgg_vgg_beta1_tau05

@@ -1,0 +1,22 @@
+2023-12-05 10:45:35,943 __main__ INFO ==> Config: {'VGGISH_BATCH_SIZE': 8, 'LAMBDA_1': 50, 'TRAIN': {'PRETRAINED_VGGISH_MODEL_PATH': 'models/vggish/vggish-10086976.pth', 'PRETRAINED_PCA_PARAMS_PATH': 'models/vggish_pca_params-970ea276.pth', 'FREEZE_AUDIO_EXTRACTOR': True}, 'DATA': {'AVS_CSV': 'G:/localizing visual sounds the easy way/Data/AVS/metadata.csv', 'AVS_PKL': 'G:/localizing visual sounds the easy way/Data/AVS/v1s_pkl', 'AVS_DATA': 'G:/localizing visual sounds the easy way/Data/AVS/v1s', 'VGGSOUND_DATA': 'G:/localizing visual sounds the easy way/Data/vggsound/', 'IMG_SIZE': [224, 224]}}
+2023-12-05 10:45:35,943 __main__ INFO ==> Arguments: Namespace(model_dir='./checkpoints', experiment_name='resnet_train_avs_test_avs', trainset='avs', testset='avs', out_dim=512, tau=0.03, epochs=2, batch_size=8, init_lr=0.0001, seed=12345, workers=8, gpu=0, world_size=1, rank=0, node='localhost', port=12345, dist_url='tcp://localhost:12345', multiprocessing_distributed=False, is_vggish=False)
+2023-12-05 10:45:35,947 __main__ INFO ==> Experiment: resnet_train_avs_test_avs
+2023-12-05 10:45:35,947 __main__ INFO ==> Total params: 22.87M
+2023-12-05 10:45:37,518 __main__ INFO Loaded dataloader.
+2023-12-05 10:50:33,646 __main__ INFO cIoU (epoch 0): 0.15184423327445984 
+AUC (epoch 0): 0.15148648648648652
+best_cIoU: 0.0
+best_Auc: 0.0
+
+2023-12-05 11:46:09,604 __main__ INFO cIoU (epoch 1): 0.13607648015022278
+AUC (epoch 1): 0.1368918918918919
+best_cIoU: 0.0
+best_Auc: 0.0
+
+2023-12-05 11:46:10,079 __main__ INFO Model saved to ./checkpoints\resnet_train_avs_test_avs
+2023-12-05 12:09:03,991 __main__ INFO cIoU (epoch 2): 0.14027424156665802
+AUC (epoch 2): 0.14128378378378378
+best_cIoU: 0.13607648015022278
+best_Auc: 0.1368918918918919
+
+2023-12-05 12:09:04,387 __main__ INFO Model saved to ./checkpoints\resnet_train_avs_test_avs
