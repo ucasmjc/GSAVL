@@ -6,5 +6,5 @@
 
 ![Alt text](latex_/label.png)
 
-## ? Methods
+## ?Methods
 ![Alt text](latex_/model2.jpg)
